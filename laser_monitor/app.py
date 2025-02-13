@@ -6,9 +6,9 @@ import os
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
-from .models.state import MonitoringState
-from .models.database import Database
-from .camera.detector import detect_tshirt_center
+from models.state import MonitoringState
+from models.database import Database
+from camera.detector import detect_tshirt_center
 
 app = Flask(__name__,
             template_folder=os.path.join(os.path.dirname(__file__), 'templates'),
@@ -26,35 +26,49 @@ def generate_frames(session_id):
 
         try:
             if state.camera.cap is None or not state.camera.cap.isOpened():
+                print("카메라 재연결 시도")
                 if not state.camera.start_capture():
-                    time.sleep(1)
+                    print("카메라를 열 수 없습니다. 5초 후 재시도합니다.")
+                    time.sleep(5)
                     continue
 
             ret, frame = state.camera.cap.read()
             if not ret:
+                print("프레임을 읽을 수 없습니다.")
+                state.camera.stop_capture()  # 카메라 연결 해제 후 재시도
                 continue
 
             # 프레임 좌우반전
             frame = cv2.flip(frame, 1)
 
-            # detect_tshirt_center 사용
+            # detect_tshirt_center 사용하여 중심점 찾기
             processed_frame = detect_tshirt_center(frame, state)
 
             # 자동 캡처 로직
             current_time = time.time()
             if current_time - state.last_capture_time >= state.capture_interval:
+                print(f"자동 캡처 시도: {current_time}")  # 디버깅용
                 state.add_capture(processed_frame)
+
+            # 인코딩 전 프레임 상태 확인
+            if processed_frame is None or processed_frame.size == 0:
+                print("유효하지 않은 프레임")
+                continue
 
             encode_param = [int(cv2.IMWRITE_JPEG_QUALITY),
                           state.camera.video_settings['quality']]
             ret, buffer = cv2.imencode('.jpg', processed_frame, encode_param)
-            frame = buffer.tobytes()
 
+            if not ret:
+                print("프레임 인코딩 실패")
+                continue
+
+            frame = buffer.tobytes()
             yield (b'--frame\r\n'
                    b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')
 
         except Exception as e:
-            print(f"Frame generation error for session {session_id}: {e}")
+            print(f"프레임 생성 중 오류 발생: {e}")
             time.sleep(1)
 
 @app.route('/')
@@ -66,6 +80,10 @@ def index():
     # 저장된 이메일 주소 불러오기
     saved_email = db.get_setting('email')
     state.email = saved_email
+
+    # 세션 생성 및 모니터링 시작
+    session = state.get_or_create_session(session_id)
+    session.is_monitoring = True  # 자동으로 모니터링 시작
 
     response = make_response(render_template('index.html', saved_email=saved_email))
     response.set_cookie('session_id', session_id)

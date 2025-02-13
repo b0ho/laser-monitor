@@ -15,109 +15,101 @@ class TshirtDetector:
         return results[0] if results else None
 
 def detect_tshirt_center(frame, state):
-    # 프레임 좌우반전
-    frame = cv2.flip(frame, 1)
-
-    # 원본 프레임 복사
-    output = frame.copy()
-    height, width = frame.shape[:2]
-    center_x = width // 2
-    center_y = height // 2
-
-    # 화면 중앙 표시
-    cv2.circle(output, (center_x, center_y), 5, (255, 0, 0), -1)  # 중앙점
-    cv2.line(output, (center_x, 0), (center_x, height), (255, 0, 0), 1)  # 수직선
-    cv2.line(output, (0, center_y), (width, center_y), (255, 0, 0), 1)  # 수평선
-
     try:
-        # 이미지 전처리
-        gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
-        blurred = cv2.GaussianBlur(gray, (7, 7), 0)
+        frame_height, frame_width = frame.shape[:2]
+        frame_center_x = frame_width // 2
+        frame_center_y = frame_height // 2
 
-        # Canny 엣지 검출
-        edges = cv2.Canny(blurred, 50, 150)
+        # YOLO 모델로 객체 감지
+        model = YOLO('yolov8n.pt')
+        results = model(frame)
 
-        # 윤곽선 찾기
-        contours, _ = cv2.findContours(edges, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
+        # 사람의 상체 부분만 감지
+        detected = False
+        best_match = None
+        min_upper_body_y = float('inf')
 
-        if contours:
-            # 면적이 큰 순서대로 정렬
-            contours = sorted(contours, key=cv2.contourArea, reverse=True)
+        # 픽셀당 실제 거리(cm) 계산을 위한 기준값
+        # 예: 1.5m 거리에서 촬영 시 사람의 평균 키(170cm)가 프레임 높이의 80%를 차지한다고 가정
+        PIXELS_PER_CM = (frame_height * 0.8) / 170  # 1cm당 픽셀 수
 
-            # 가장 큰 윤곽선 선택
-            largest_contour = contours[0]
+        for result in results[0].boxes.data:
+            class_id = int(result[5])
+            confidence = float(result[4])
 
-            # 윤곽선 면적이 너무 작으면 무시
-            if cv2.contourArea(largest_contour) < 10000:  # 최소 면적 조정
-                state.status = "티셔츠가 너무 작음"
-                state.distance = -1
-                return output
+            if class_id == 0 and confidence > 0.6:
+                x1, y1, x2, y2 = map(int, result[:4])
+                box_height = y2 - y1
 
-            # 외접 사각형 구하기
-            rect = cv2.minAreaRect(largest_contour)
-            box = cv2.boxPoints(rect)
-            box = np.int0(box)
+                # 머리 위치(y1)에서 10cm 아래 지점을 목표점으로 설정
+                target_y = y1 + int(10 * PIXELS_PER_CM)  # 10cm를 픽셀로 변환
 
-            # 티셔츠의 중심점 계산
-            tshirt_center_x = int(rect[0][0])
-            tshirt_center_y = int(rect[0][1])
+                if y1 < min_upper_body_y:
+                    min_upper_body_y = y1
+                    best_match = {
+                        'x1': x1,
+                        'y1': y1,
+                        'x2': x2,
+                        'y2': y2,
+                        'target_y': target_y,
+                        'confidence': confidence
+                    }
 
-            # 회전된 사각형 그리기
-            cv2.drawContours(output, [box], 0, (0, 255, 0), 2)
+        if best_match:
+            # 목표점 계산 (머리 위치에서 10cm 아래, 좌우 중앙)
+            target_center_x = (best_match['x1'] + best_match['x2']) // 2
+            target_center_y = best_match['target_y']
 
-            # 중심점 표시
-            cv2.circle(output, (tshirt_center_x, tshirt_center_y), 5, (0, 255, 0), -1)
+            # X축과 Y축 거리 별도 계산
+            distance_x = abs(frame_center_x - target_center_x)
+            distance_y = abs(frame_center_y - target_center_y)
+            distance = np.sqrt(distance_x**2 + distance_y**2)
 
-            # 가이드라인 표시 (로고 영역 표시)
-            width_rect = int(rect[1][0])
-            height_rect = int(rect[1][1])
-            logo_size = min(width_rect, height_rect) // 4  # 로고 크기는 티셔츠 크기의 1/4
+            # 실제 거리(cm) 계산
+            real_distance_cm = distance / PIXELS_PER_CM
 
-            cv2.circle(output, (tshirt_center_x, tshirt_center_y), logo_size, (0, 255, 255), 2)
-
-            # 중앙점과의 거리 계산
-            distance_x = abs(center_x - tshirt_center_x)
-            distance_y = abs(center_y - tshirt_center_y)
-
-            # 허용 오차 (화면 크기의 1%로 설정 - 더 정확한 정렬을 위해)
-            tolerance_x = width * 0.01
-            tolerance_y = height * 0.01
-
-            # 상태 업데이트
-            if distance_x <= tolerance_x and distance_y <= tolerance_y:
-                state.status = "정상 - 로고 위치 OK"
-                state.distance = 0
-                # 정확히 중앙에 있을 때 녹색 원으로 표시
-                cv2.circle(output, (center_x, center_y), logo_size, (0, 255, 0), 2)
+            # 상태 업데이트 (X, Y 축 각각 확인)
+            tolerance = state.hsv_values['tolerance']
+            if distance_x <= tolerance and distance_y <= tolerance:
+                state.status = "정상"
+            elif distance_x > tolerance and distance_y <= tolerance:
+                state.status = "좌우 벗어남"
+            elif distance_x <= tolerance and distance_y > tolerance:
+                if target_center_y < frame_center_y:
+                    state.status = "너무 높음"
+                else:
+                    state.status = "너무 낮음"
             else:
-                state.status = "비정상 - 중앙 맞춤 필요"
-                state.distance = int(max(distance_x, distance_y))
+                state.status = "중심에서 벗어남"
 
-                # 방향 안내
-                if distance_x > tolerance_x:
-                    direction_x = "오른쪽으로" if tshirt_center_x < center_x else "왼쪽으로"
-                    cv2.putText(output, direction_x, (10, 30),
-                              cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+            state.distance = int(real_distance_cm)  # 거리를 cm 단위로 저장
 
-                if distance_y > tolerance_y:
-                    direction_y = "위로" if tshirt_center_y < center_y else "아래로"
-                    cv2.putText(output, direction_y, (10, 60),
-                              cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 0, 255), 2)
+            # 시각화
+            # 프레임 중심점
+            cv2.circle(frame, (frame_center_x, frame_center_y), 5, (0, 255, 0), -1)
+            # 목표 중심점
+            cv2.circle(frame, (target_center_x, target_center_y), 5, (0, 0, 255), -1)
+            # 전체 영역 표시
+            cv2.rectangle(frame,
+                        (best_match['x1'], best_match['y1']),
+                        (best_match['x2'], best_match['y2']),
+                        (255, 0, 0), 2)
+            # 중심점 연결선
+            cv2.line(frame, (frame_center_x, frame_center_y),
+                    (target_center_x, target_center_y), (255, 0, 0), 2)
+            # 거리 정보
+            cv2.putText(frame, f"Distance: {int(real_distance_cm)}cm", (10, 30),
+                       cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
+            cv2.putText(frame, f"Confidence: {best_match['confidence']:.2f}", (10, 60),
+                       cv2.FONT_HERSHEY_SIMPLEX, 1, (0, 255, 0), 2)
 
-            # 거리 및 정확도 표시
-            accuracy = max(0, 100 - (state.distance / max(tolerance_x, tolerance_y)) * 100)
-            cv2.putText(output, f"정확도: {accuracy:.1f}%", (10, 90),
-                       cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
-            cv2.putText(output, f"오차: {distance_x:.1f}, {distance_y:.1f}px", (10, 120),
-                       cv2.FONT_HERSHEY_SIMPLEX, 0.7, (0, 255, 0), 2)
+            detected = True
 
-        else:
-            state.status = "티셔츠 감지 안됨"
-            state.distance = -1
+        if not detected:
+            state.status = "사람이 감지되지 않음"
+            state.distance = 0
+
+        return frame
 
     except Exception as e:
-        print(f"Error in detect_tshirt_center: {e}")
-        state.status = "에러"
-        state.distance = -1
-
-    return output
+        return frame

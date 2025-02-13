@@ -1,5 +1,5 @@
 import os
-from ..camera.camera import SharedCamera
+from camera.camera import SharedCamera
 from .session import UserSession
 import time
 import cv2
@@ -8,8 +8,8 @@ from datetime import datetime
 class MonitoringState:
     def __init__(self):
         self.sessions = {}
-        self.camera = SharedCamera()
-        self.is_monitoring = False
+        self.camera = SharedCamera(video_source=0)
+        self.is_monitoring = True
         self.alert_enabled = False
         self.email = None  # 알림 수신 이메일
         self.status = "대기중"
@@ -27,6 +27,7 @@ class MonitoringState:
         self.capture_dir = 'laser_monitor/static/captures'
         os.makedirs(self.capture_dir, exist_ok=True)
         self.error_message = None
+        self.target_distance = 10  # 기본 목표 거리 10cm
 
     def get_or_create_session(self, session_id):
         if session_id not in self.sessions:
@@ -50,7 +51,7 @@ class MonitoringState:
                 filename = f'{prefix}_capture_{timestamp}.jpg'
                 filepath = os.path.join(self.capture_dir, filename)
 
-                print(f"Saving capture to: {filepath}")
+                print(f"Saving capture to: {filepath}")  # 디버깅용
 
                 success = cv2.imwrite(filepath, frame)
                 if not success:
@@ -64,7 +65,7 @@ class MonitoringState:
                     'is_manual': is_manual
                 }
 
-                print(f"Capture info: {capture_info}")
+                print(f"Capture info: {capture_info}")  # 디버깅용
 
                 # 최근 10개만 유지
                 self.captures = [capture_info] + self.captures[:9]
@@ -81,3 +82,7 @@ class MonitoringState:
         files = sorted(os.listdir(self.capture_dir), reverse=True)
         for old_file in files[20:]:
             os.remove(os.path.join(self.capture_dir, old_file))
+
+    def start_capture(self):
+        if not self.camera.cap.isOpened():
+            print("카메라를 열 수 없습니다.")

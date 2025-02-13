@@ -218,9 +218,6 @@
       </div>
 
       <div class="control-panel">
-        <button id="monitoringBtn" onclick="toggleMonitoring()">
-          모니터링 시작
-        </button>
         <div class="alert-settings">
           <h3>알림 설정</h3>
           <div class="email-input">
@@ -369,7 +366,6 @@
 
       // 주기적으로 상태 업데이트
       setInterval(updateStatus, 1000);
-      setInterval(updateCaptureHistory, 60000); // 1분마다 히스토리 업데이트
 
       function captureCurrentFrame() {
         fetch("/capture_current")
@@ -392,13 +388,8 @@
           });
       }
 
+      // 캡처 히스토리 주기적 업데이트 함수
       function updateCaptureHistory() {
-        if (
-          !document.getElementById("monitoringBtn").textContent.includes("중지")
-        ) {
-          return; // 모니터링 중이 아니면 업데이트하지 않음
-        }
-
         fetch("/get_captures")
           .then((response) => response.json())
           .then((data) => {
@@ -417,6 +408,12 @@
               .join("");
           });
       }
+
+      // 페이지 로드 시 초기 업데이트
+      updateCaptureHistory();
+
+      // 주기적으로 캡처 히스토리 업데이트 (10초마다)
+      setInterval(updateCaptureHistory, 10000);
 
       // HSV 슬라이더 이벤트 리스너
       document
