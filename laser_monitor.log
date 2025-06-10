@@ -1,0 +1,434 @@
+2025-06-10 21:50:12,638 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 21:50:31,202 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 21:50:31,206 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 21:50:31,207 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 21:50:31,219 - laser_monitor - WARNING - 설정 오류: SENDER_EMAIL이 설정되지 않았습니다.
+2025-06-10 21:50:31,220 - laser_monitor - WARNING - 설정 오류: SENDER_PASSWORD가 설정되지 않았습니다.
+2025-06-10 21:50:31,240 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 21:50:31,240 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 21:50:32,392 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 21:50:38,126 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 21:50:38,129 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 21:50:38,129 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 21:50:38,131 - laser_monitor - WARNING - 설정 오류: SENDER_EMAIL이 설정되지 않았습니다.
+2025-06-10 21:50:38,132 - laser_monitor - WARNING - 설정 오류: SENDER_PASSWORD가 설정되지 않았습니다.
+2025-06-10 21:50:38,151 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 21:50:38,151 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 21:50:53,379 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 21:50:55,827 - laser_monitor - INFO - 카메라 초기화 시도: source=0
+2025-06-10 21:51:01,441 - laser_monitor - INFO - 카메라 설정 적용 - 해상도: 1280.0x720.0, FPS: 30.00003
+2025-06-10 21:51:01,441 - laser_monitor - WARNING - 요청한 해상도(640x480)와 실제 해상도(1280.0x720.0)가 다릅니다.
+2025-06-10 21:51:02,266 - laser_monitor - INFO - 카메라 초기화 성공
+2025-06-10 21:51:02,267 - laser_monitor - INFO - 새 세션 생성: ee85c283-f9a4-40b4-b149-0f3576fb46d9
+2025-06-10 21:51:15,885 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 21:51:19,324 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 21:51:19,326 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 21:51:19,326 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 21:51:19,328 - laser_monitor - WARNING - 설정 오류: SENDER_EMAIL이 설정되지 않았습니다.
+2025-06-10 21:51:19,328 - laser_monitor - WARNING - 설정 오류: SENDER_PASSWORD가 설정되지 않았습니다.
+2025-06-10 21:51:19,338 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 21:51:19,338 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 21:51:25,832 - laser_monitor - INFO - 카메라 초기화 시도: source=0
+2025-06-10 21:51:31,282 - laser_monitor - INFO - 카메라 설정 적용 - 해상도: 1280.0x720.0, FPS: 30.00003
+2025-06-10 21:51:31,282 - laser_monitor - WARNING - 요청한 해상도(640x480)와 실제 해상도(1280.0x720.0)가 다릅니다.
+2025-06-10 21:51:32,077 - laser_monitor - INFO - 카메라 초기화 성공
+2025-06-10 21:51:32,077 - laser_monitor - INFO - 새 세션 생성: ee85c283-f9a4-40b4-b149-0f3576fb46d9
+2025-06-10 21:52:36,600 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 21:52:39,158 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 21:52:39,159 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 21:52:39,159 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 21:52:39,165 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 21:52:39,165 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 21:52:55,827 - laser_monitor - INFO - 카메라 초기화 시도: source=0
+2025-06-10 21:52:59,638 - laser_monitor - INFO - 카메라 설정 적용 - 해상도: 1280.0x720.0, FPS: 30.00003
+2025-06-10 21:52:59,638 - laser_monitor - WARNING - 요청한 해상도(640x480)와 실제 해상도(1280.0x720.0)가 다릅니다.
+2025-06-10 21:53:00,426 - laser_monitor - INFO - 카메라 초기화 성공
+2025-06-10 21:53:00,426 - laser_monitor - INFO - 새 세션 생성: ee85c283-f9a4-40b4-b149-0f3576fb46d9
+2025-06-10 21:54:12,526 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 21:54:14,892 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 21:54:14,893 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 21:54:14,894 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 21:54:14,899 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 21:54:14,900 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 21:54:25,830 - laser_monitor - INFO - 카메라 초기화 시도: source=0
+2025-06-10 21:54:29,681 - laser_monitor - INFO - 카메라 설정 적용 - 해상도: 1280.0x720.0, FPS: 30.00003
+2025-06-10 21:54:29,681 - laser_monitor - WARNING - 요청한 해상도(640x480)와 실제 해상도(1280.0x720.0)가 다릅니다.
+2025-06-10 21:54:30,442 - laser_monitor - INFO - 카메라 초기화 성공
+2025-06-10 21:54:30,442 - laser_monitor - INFO - 새 세션 생성: ee85c283-f9a4-40b4-b149-0f3576fb46d9
+2025-06-10 21:55:12,894 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 21:55:15,131 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 21:55:15,136 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 21:55:15,136 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 21:55:15,290 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:15,295 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:15,300 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:15,322 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:15,325 - laser_monitor - ERROR - 캡처 목록 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 266, in get_captures
+    return jsonify({'captures': state.captures})
+NameError: name 'state' is not defined
+2025-06-10 21:55:16,319 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:17,321 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:18,320 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:19,321 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:20,320 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:21,321 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:22,320 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:23,322 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:24,321 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:25,322 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:25,324 - laser_monitor - ERROR - 캡처 목록 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 266, in get_captures
+    return jsonify({'captures': state.captures})
+NameError: name 'state' is not defined
+2025-06-10 21:55:25,827 - laser_monitor - ERROR - 하트비트 처리 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 179, in heartbeat
+    session = state.get_or_create_session(session_id)
+NameError: name 'state' is not defined
+2025-06-10 21:55:26,321 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:27,319 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:28,322 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:29,321 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:30,320 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:31,320 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:33,049 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 21:55:34,892 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 21:55:34,896 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 21:55:34,896 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 21:55:35,028 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:35,031 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:35,035 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:35,322 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:35,323 - laser_monitor - ERROR - 캡처 목록 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 267, in get_captures
+    return jsonify({'captures': state.captures})
+NameError: name 'state' is not defined
+2025-06-10 21:55:36,322 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:37,321 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:38,320 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:39,321 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:40,320 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:41,320 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:42,321 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:43,321 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:44,273 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 21:55:44,320 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:45,320 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:45,321 - laser_monitor - ERROR - 캡처 목록 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 267, in get_captures
+    return jsonify({'captures': state.captures})
+NameError: name 'state' is not defined
+2025-06-10 21:55:46,320 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:46,653 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 21:55:46,658 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 21:55:46,659 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 21:55:47,321 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:48,322 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:49,320 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:50,320 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:51,321 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:51,632 - laser_monitor - INFO - 새 세션 생성: 0629e320-503b-4952-a900-1f40f5b7bb57
+2025-06-10 21:55:51,651 - laser_monitor - ERROR - 메인 페이지 로드 중 오류: name 'db' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 157, in index
+    saved_email = db.get_setting('email')
+NameError: name 'db' is not defined
+2025-06-10 21:55:52,321 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:53,321 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:54,321 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:55,323 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:55,326 - laser_monitor - ERROR - 캡처 목록 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 267, in get_captures
+    return jsonify({'captures': state.captures})
+NameError: name 'state' is not defined
+2025-06-10 21:55:55,827 - laser_monitor - ERROR - 하트비트 처리 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 180, in heartbeat
+    session = state.get_or_create_session(session_id)
+NameError: name 'state' is not defined
+2025-06-10 21:55:56,320 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:57,321 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:58,322 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:59,320 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:00,321 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:01,320 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:02,321 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:03,320 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:04,320 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:05,322 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:05,323 - laser_monitor - ERROR - 캡처 목록 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 267, in get_captures
+    return jsonify({'captures': state.captures})
+NameError: name 'state' is not defined
+2025-06-10 21:56:06,321 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:07,319 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:08,320 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:09,322 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:10,320 - laser_monitor - ERROR - 상태 조회 중 오류: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:12,022 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 21:56:14,290 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 21:56:14,291 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 21:56:14,291 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 21:56:14,296 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 21:56:14,296 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 21:56:25,828 - laser_monitor - INFO - 카메라 초기화 시도: source=0
+2025-06-10 21:56:29,713 - laser_monitor - INFO - 카메라 설정 적용 - 해상도: 1280.0x720.0, FPS: 30.00003
+2025-06-10 21:56:29,713 - laser_monitor - WARNING - 요청한 해상도(640x480)와 실제 해상도(1280.0x720.0)가 다릅니다.
+2025-06-10 21:56:30,504 - laser_monitor - INFO - 카메라 초기화 성공
+2025-06-10 21:56:30,504 - laser_monitor - INFO - 새 세션 생성: ee85c283-f9a4-40b4-b149-0f3576fb46d9
+2025-06-10 21:56:36,070 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 21:56:38,310 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 21:56:38,311 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 21:56:38,312 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 21:56:38,316 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 21:56:38,316 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 21:56:41,703 - laser_monitor - INFO - 새 세션 생성: 22b78ee2-f1b2-45fa-a821-4e8b661057b4
+2025-06-10 21:56:41,705 - laser_monitor - INFO - 새 세션 생성: 22b78ee2-f1b2-45fa-a821-4e8b661057b4
+2025-06-10 21:56:41,705 - laser_monitor - INFO - 세션 22b78ee2-f1b2-45fa-a821-4e8b661057b4 모니터링 시작
+2025-06-10 22:00:48,844 - laser_monitor - INFO - 세션 ee85c283-f9a4-40b4-b149-0f3576fb46d9 모니터링 시작
+2025-06-10 22:00:48,864 - laser_monitor - WARNING - 404 오류: http://127.0.0.1:5000/disconnect
+2025-06-10 22:00:49,084 - laser_monitor - INFO - 프레임 생성 시작: 세션 ee85c283-f9a4-40b4-b149-0f3576fb46d9
+2025-06-10 22:00:53,317 - laser_monitor - INFO - 프레임 생성 시작: 세션 ee85c283-f9a4-40b4-b149-0f3576fb46d9

@@ -1,0 +1,37 @@
+# Flask 설정
+SECRET_KEY=your-secret-key-here
+DEBUG=True
+
+# 카메라 설정
+DEFAULT_VIDEO_SOURCE=0
+CAMERA_WIDTH=640
+CAMERA_HEIGHT=480
+CAMERA_FPS=30
+VIDEO_QUALITY=85
+
+# 모니터링 설정
+CAPTURE_INTERVAL=60
+TARGET_DISTANCE=10
+DETECTION_CONFIDENCE=0.6
+TOLERANCE=50
+
+# 파일 관리 설정
+MAX_CAPTURES=10
+MAX_FILES=20
+CAPTURE_DIR=laser_monitor/static/captures
+
+# 이메일 설정 (필수)
+SMTP_SERVER=smtp.gmail.com
+SMTP_PORT=587
+SENDER_EMAIL=your-email@gmail.com
+SENDER_PASSWORD=your-app-password
+
+# 세션 관리 설정
+SESSION_TIMEOUT=60
+
+# 로깅 설정
+LOG_LEVEL=INFO
+LOG_FILE=laser_monitor.log
+
+# 모델 파일 경로
+YOLO_MODEL_PATH=yolov8n.pt
