@@ -35,17 +35,17 @@ class LaserMonitorLogger:
             '%(asctime)s - %(name)s - %(levelname)s - %(message)s'
         )
 
-        # 파일 핸들러
+        # 파일 핸들러 - UTF-8 인코딩 명시
         log_dir = os.path.dirname(Config.LOG_FILE)
         if log_dir and not os.path.exists(log_dir):
             os.makedirs(log_dir)
 
-        file_handler = logging.FileHandler(Config.LOG_FILE)
+        file_handler = logging.FileHandler(Config.LOG_FILE, encoding='utf-8')
         file_handler.setLevel(logging.DEBUG)
         file_handler.setFormatter(formatter)
 
-        # 콘솔 핸들러
-        console_handler = logging.StreamHandler()
+        # 콘솔 핸들러 - UTF-8 출력 지원
+        console_handler = logging.StreamHandler(sys.stdout)
         console_handler.setLevel(logging.INFO)
         console_handler.setFormatter(formatter)
 

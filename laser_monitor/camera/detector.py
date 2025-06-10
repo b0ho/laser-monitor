@@ -2,12 +2,21 @@ import cv2
 import numpy as np
 import sys
 import os
+import time
 
 # 상위 디렉토리를 path에 추가
 sys.path.append(os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)))))
 
 try:
     from ultralytics import YOLO
+    # YOLO 로깅 설정 - 콘솔 출력 최소화
+    import ultralytics
+    ultralytics.checks(verbose=False)  # 체크 과정 로그 비활성화
+
+    # 로깅 레벨 설정
+    import logging
+    logging.getLogger('ultralytics').setLevel(logging.WARNING)
+
     YOLO_AVAILABLE = True
 except ImportError:
     print("WARNING: ultralytics 모듈을 찾을 수 없습니다. pip install ultralytics로 설치하세요.")
@@ -38,6 +47,8 @@ class TshirtDetector:
     """T셔츠 감지를 위한 YOLO 기반 감지기"""
     _instance = None
     _model = None
+    _last_log_time = 0
+    _log_interval = 3.0  # 3초마다 로그 출력
 
     def __new__(cls):
         """싱글톤 패턴으로 모델 인스턴스 관리"""
@@ -55,7 +66,8 @@ class TshirtDetector:
             return
 
         try:
-            cls._model = YOLO(Config.YOLO_MODEL_PATH)
+            # verbose=False로 YOLO 로그 출력 최소화
+            cls._model = YOLO(Config.YOLO_MODEL_PATH, verbose=False)
             logger.info(f"YOLO 모델 로드 성공: {Config.YOLO_MODEL_PATH}")
         except Exception as e:
             logger.log_exception("YOLO 모델 로드 실패", e)
@@ -68,7 +80,8 @@ class TshirtDetector:
             return None
 
         try:
-            results = self._model(frame, conf=Config.DETECTION_CONFIDENCE)
+            # verbose=False로 추론 시 로그 출력 비활성화
+            results = self._model(frame, conf=Config.DETECTION_CONFIDENCE, verbose=False)
             return results[0] if results else None
         except Exception as e:
             logger.log_exception("객체 감지 중 오류", e)
@@ -114,8 +127,24 @@ def detect_tshirt_center(frame, state):
 
             return frame
 
-        # YOLO 모델로 객체 감지
-        results = detector._model(frame, conf=Config.DETECTION_CONFIDENCE)
+        # YOLO 모델로 객체 감지 (verbose=False로 로그 억제)
+        current_time = time.time()
+        results = detector._model(frame, conf=Config.DETECTION_CONFIDENCE, verbose=False)
+
+        # 3초마다 한 번씩만 감지 결과 로그 출력
+        if current_time - detector._last_log_time >= detector._log_interval:
+            if results and results[0].boxes:
+                detected_objects = []
+                for result in results[0].boxes.data:
+                    class_id = int(result[5])
+                    confidence = float(result[4])
+                    if class_id == 0:  # 사람 클래스
+                        detected_objects.append(f"person(conf:{confidence:.2f})")
+
+                if detected_objects:
+                    logger.debug(f"객체 감지: {', '.join(detected_objects)}")
+
+            detector._last_log_time = current_time
 
         if not results or not results[0].boxes:
             state.status = "사람이 감지되지 않음"
@@ -129,7 +158,7 @@ def detect_tshirt_center(frame, state):
 
         # 픽셀당 실제 거리(cm) 계산을 위한 기준값
         # 예: 1.5m 거리에서 촬영 시 사람의 평균 키(170cm)가 프레임 높이의 80%를 차지한다고 가정
-        PIXELS_PER_CM = (frame_height * 0.8) / 170  # 1cm당 픽셀 수
+        PIXELS_PER_CM = (frame_height * 0.8) / 170
 
         for result in results[0].boxes.data:
             class_id = int(result[5])
@@ -188,7 +217,9 @@ def detect_tshirt_center(frame, state):
                               best_match, real_distance_cm)
 
             detected = True
-            logger.debug(f"감지 성공: 상태={state.status}, 거리={state.distance}cm")
+            # 3초마다 한 번씩만 상세 로그 출력
+            if current_time - detector._last_log_time >= detector._log_interval:
+                logger.debug(f"감지 성공: 상태={state.status}, 거리={state.distance}cm")
 
         if not detected:
             state.status = "사람이 감지되지 않음"

@@ -12,12 +12,67 @@ class Config:
     SECRET_KEY = os.getenv('SECRET_KEY', 'your-secret-key-here')
     DEBUG = os.getenv('DEBUG', 'True').lower() == 'true'
 
-    # 카메라 설정
+    # 화질 프리셋 정의 (4K 카메라 지원)
+    QUALITY_PRESETS = {
+        'ultra': {
+            'name': '최고 화질 (4K)',
+            'width': 3840,
+            'height': 2160,
+            'fps': 60,
+            'quality': 98,
+            'brightness': 0,
+            'contrast': 32,
+            'saturation': 32,
+            'autofocus': True,
+            'description': '3840x2160 4K UHD, 60fps, 최고 화질'
+        },
+        'high': {
+            'name': '고화질 (Full HD)',
+            'width': 1920,
+            'height': 1080,
+            'fps': 60,
+            'quality': 95,
+            'brightness': 0,
+            'contrast': 32,
+            'saturation': 32,
+            'autofocus': True,
+            'description': '1920x1080 Full HD, 60fps, 고화질'
+        },
+        'medium': {
+            'name': '중간 화질 (HD)',
+            'width': 1280,
+            'height': 720,
+            'fps': 30,
+            'quality': 85,
+            'brightness': 0,
+            'contrast': 32,
+            'saturation': 32,
+            'autofocus': True,
+            'description': '1280x720 HD, 30fps, 표준 화질'
+        },
+        'low': {
+            'name': '기본 화질 (SD)',
+            'width': 640,
+            'height': 480,
+            'fps': 30,
+            'quality': 75,
+            'brightness': 0,
+            'contrast': 32,
+            'saturation': 32,
+            'autofocus': True,
+            'description': '640x480 SD, 30fps, 기본 화질'
+        }
+    }
+
+    # 현재 화질 프리셋 (기본값: 4K 최고 화질)
+    CURRENT_QUALITY_PRESET = os.getenv('QUALITY_PRESET', 'ultra')
+
+    # 카메라 설정 (선택된 프리셋에서 가져옴)
     DEFAULT_VIDEO_SOURCE = int(os.getenv('DEFAULT_VIDEO_SOURCE', '0'))
-    CAMERA_WIDTH = int(os.getenv('CAMERA_WIDTH', '640'))
-    CAMERA_HEIGHT = int(os.getenv('CAMERA_HEIGHT', '480'))
-    CAMERA_FPS = int(os.getenv('CAMERA_FPS', '30'))
-    VIDEO_QUALITY = int(os.getenv('VIDEO_QUALITY', '85'))
+    CAMERA_WIDTH = int(os.getenv('CAMERA_WIDTH', str(QUALITY_PRESETS[CURRENT_QUALITY_PRESET]['width'])))
+    CAMERA_HEIGHT = int(os.getenv('CAMERA_HEIGHT', str(QUALITY_PRESETS[CURRENT_QUALITY_PRESET]['height'])))
+    CAMERA_FPS = int(os.getenv('CAMERA_FPS', str(QUALITY_PRESETS[CURRENT_QUALITY_PRESET]['fps'])))
+    VIDEO_QUALITY = int(os.getenv('VIDEO_QUALITY', str(QUALITY_PRESETS[CURRENT_QUALITY_PRESET]['quality'])))
 
     # 모니터링 설정
     CAPTURE_INTERVAL = int(os.getenv('CAPTURE_INTERVAL', '60'))  # 초
@@ -45,6 +100,31 @@ class Config:
 
     # 모델 파일 경로
     YOLO_MODEL_PATH = os.getenv('YOLO_MODEL_PATH', 'yolov8n.pt')
+
+    @classmethod
+    def get_quality_preset(cls, preset_name=None):
+        """화질 프리셋 가져오기"""
+        if preset_name is None:
+            preset_name = cls.CURRENT_QUALITY_PRESET
+        return cls.QUALITY_PRESETS.get(preset_name, cls.QUALITY_PRESETS['ultra'])
+
+    @classmethod
+    def set_quality_preset(cls, preset_name):
+        """화질 프리셋 설정"""
+        if preset_name in cls.QUALITY_PRESETS:
+            cls.CURRENT_QUALITY_PRESET = preset_name
+            preset = cls.QUALITY_PRESETS[preset_name]
+            cls.CAMERA_WIDTH = preset['width']
+            cls.CAMERA_HEIGHT = preset['height']
+            cls.CAMERA_FPS = preset['fps']
+            cls.VIDEO_QUALITY = preset['quality']
+            return True
+        return False
+
+    @classmethod
+    def get_available_presets(cls):
+        """사용 가능한 화질 프리셋 목록"""
+        return {name: preset for name, preset in cls.QUALITY_PRESETS.items()}
 
     @classmethod
     def validate_config(cls):

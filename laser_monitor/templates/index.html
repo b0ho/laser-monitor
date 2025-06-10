@@ -58,19 +58,6 @@
       .slider-container {
         margin: 10px 0;
       }
-      .capture-history {
-        background-color: white;
-        padding: 20px;
-        border-radius: 5px;
-        margin-bottom: 20px;
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-      }
-      .capture-grid {
-        display: grid;
-        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-        gap: 20px;
-        margin-top: 20px;
-      }
       .capture-item {
         position: relative;
         padding: 10px;
@@ -210,13 +197,6 @@
         </div>
       </div>
 
-      <div class="capture-history">
-        <h2>자동 캡처 히스토리 (1분 간격)</h2>
-        <div class="capture-grid" id="captureGrid">
-          <!-- 캡처된 이미지들이 여기에 추가됨 -->
-        </div>
-      </div>
-
       <div class="control-panel">
         <div class="alert-settings">
           <h3>알림 설정</h3>
@@ -245,45 +225,28 @@
         </div>
 
         <div class="video-settings">
-          <h3>영상 설정</h3>
+          <h3>화질 설정</h3>
           <div class="settings-grid">
             <div class="setting-item">
-              <label>해상도:</label>
-              <select id="resolution" onchange="updateVideoSettings()">
-                <option value="1280,720">HD (1280x720)</option>
-                <option value="854,480">SD (854x480)</option>
-                <option value="640,360">360p (640x360)</option>
+              <label>화질 프리셋:</label>
+              <select id="qualityPreset" onchange="changeQualityPreset()">
+                <!-- 프리셋 옵션들이 JavaScript로 동적으로 추가됨 -->
               </select>
             </div>
-            <div class="setting-item">
-              <label>프레임 레이트:</label>
-              <select id="fps" onchange="updateVideoSettings()">
-                <option value="30">30 FPS</option>
-                <option value="20">20 FPS</option>
-                <option value="15">15 FPS</option>
-                <option value="10">10 FPS</option>
-              </select>
+            <div id="currentQualityInfo" class="setting-item">
+              <label>현재 설정:</label>
+              <span id="qualityDescription">로딩 중...</span>
             </div>
             <div class="setting-item">
-              <label>화질:</label>
-              <input
-                type="range"
-                id="quality"
-                min="0"
-                max="100"
-                value="85"
-                onchange="updateVideoSettings()"
-              />
-              <span id="quality_value">85</span>
+              <label>실제 해상도:</label>
+              <span id="actualResolution">확인 중...</span>
+            </div>
+            <div class="setting-item">
+              <label>실제 FPS:</label>
+              <span id="actualFPS">확인 중...</span>
             </div>
           </div>
-        </div>
-
-        <div class="source-selection">
-          <h3>입력 소스 선택</h3>
-          <button onclick="changeSource(0)">기본 웹캠</button>
-          <button onclick="changeSource(1)">보조 카메라</button>
-          <button onclick="changeSource(2)">다른 카메라</button>
+          <div id="qualityStatus" class="alert-status"></div>
         </div>
       </div>
     </div>
@@ -292,6 +255,7 @@
       // 페이지 로드 시 세션 시작
       window.addEventListener("load", function () {
         startHeartbeat();
+        loadQualityPresets();
       });
 
       // 페이지 언로드 시 연결 해제
@@ -316,26 +280,6 @@
             document.getElementById("distance").textContent = data.distance;
             document.getElementById("status").className =
               data.status === "정상" ? "status-normal" : "status-warning";
-
-            // 모니터링 버튼 상태 업데이트
-            const btn = document.getElementById("monitoringBtn");
-            btn.textContent = data.is_monitoring
-              ? "모니터링 중지"
-              : "모니터링 시작";
-          });
-      }
-
-      function toggleMonitoring() {
-        fetch("/toggle_monitoring")
-          .then((response) => response.json())
-          .then((data) => {
-            const btn = document.getElementById("monitoringBtn");
-            btn.textContent = data.is_monitoring
-              ? "모니터링 중지"
-              : "모니터링 시작";
-            if (data.is_monitoring) {
-              updateCaptureHistory();
-            }
           });
       }
 
@@ -354,18 +298,8 @@
         });
       }
 
-      function changeSource(source) {
-        fetch(`/change_source/${source}`)
-          .then((response) => response.json())
-          .then((data) => {
-            if (!data.success) {
-              alert("카메라 변경 실패");
-            }
-          });
-      }
-
-      // 주기적으로 상태 업데이트
-      setInterval(updateStatus, 1000);
+      // 주기적으로 상태 업데이트 (3초마다)
+      setInterval(updateStatus, 3000);
 
       function captureCurrentFrame() {
         fetch("/capture_current")
@@ -381,39 +315,11 @@
                   </div>
                 </div>
               `;
-              updateCaptureHistory();
             } else {
               alert(data.error || "캡처에 실패했습니다.");
             }
           });
       }
-
-      // 캡처 히스토리 주기적 업데이트 함수
-      function updateCaptureHistory() {
-        fetch("/get_captures")
-          .then((response) => response.json())
-          .then((data) => {
-            const grid = document.getElementById("captureGrid");
-            grid.innerHTML = data.captures
-              .map(
-                (capture) => `
-                <div class="capture-item">
-                  <img src="${capture.image_url}" alt="캡처 이미지" />
-                  <div class="capture-time">
-                    ${capture.time} - ${capture.status}
-                  </div>
-                </div>
-              `
-              )
-              .join("");
-          });
-      }
-
-      // 페이지 로드 시 초기 업데이트
-      updateCaptureHistory();
-
-      // 주기적으로 캡처 히스토리 업데이트 (10초마다)
-      setInterval(updateCaptureHistory, 10000);
 
       // HSV 슬라이더 이벤트 리스너
       document
@@ -498,6 +404,113 @@
           status.style.display = "none";
         }, 3000);
       }
+
+      // 화질 설정 관련 함수들
+      function loadQualityPresets() {
+        fetch("/get_quality_presets")
+          .then((response) => response.json())
+          .then((data) => {
+            if (data.success) {
+              const select = document.getElementById("qualityPreset");
+              select.innerHTML = "";
+
+              Object.keys(data.presets).forEach((key) => {
+                const preset = data.presets[key];
+                const option = document.createElement("option");
+                option.value = key;
+                option.textContent = `${preset.name} - ${preset.description}`;
+                if (key === data.current) {
+                  option.selected = true;
+                }
+                select.appendChild(option);
+              });
+
+              updateCurrentQualityInfo();
+            }
+          })
+          .catch((error) => console.error("화질 프리셋 로드 오류:", error));
+      }
+
+      function updateCurrentQualityInfo() {
+        fetch("/get_current_quality")
+          .then((response) => response.json())
+          .then((data) => {
+            if (data.success) {
+              const preset = data.preset;
+              const cameraInfo = data.camera_info;
+
+              document.getElementById("qualityDescription").textContent =
+                preset.description;
+
+              if (cameraInfo) {
+                document.getElementById(
+                  "actualResolution"
+                ).textContent = `${cameraInfo.width}x${cameraInfo.height}`;
+                document.getElementById(
+                  "actualFPS"
+                ).textContent = `${cameraInfo.fps.toFixed(1)} FPS`;
+              } else {
+                document.getElementById("actualResolution").textContent =
+                  "카메라 비활성";
+                document.getElementById("actualFPS").textContent =
+                  "카메라 비활성";
+              }
+            }
+          })
+          .catch((error) => console.error("현재 화질 정보 조회 오류:", error));
+      }
+
+      function changeQualityPreset() {
+        const selectedPreset = document.getElementById("qualityPreset").value;
+
+        fetch("/set_quality_preset", {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify({ preset: selectedPreset }),
+        })
+          .then((response) => response.json())
+          .then((data) => {
+            if (data.success) {
+              showQualityStatus(
+                "success",
+                data.message || "화질이 변경되었습니다."
+              );
+              updateCurrentQualityInfo();
+
+              // 비디오 스트림 새로고침을 위해 잠시 후 페이지 새로고침
+              setTimeout(() => {
+                location.reload();
+              }, 1000);
+            } else {
+              showQualityStatus(
+                "error",
+                data.error || "화질 변경에 실패했습니다."
+              );
+            }
+          })
+          .catch((error) => {
+            console.error("화질 변경 오류:", error);
+            showQualityStatus("error", "화질 변경 중 오류가 발생했습니다.");
+          });
+      }
+
+      function showQualityStatus(type, message) {
+        const status = document.getElementById("qualityStatus");
+        status.className = `alert-status ${type}`;
+        status.textContent = message;
+        status.style.display = "block";
+        setTimeout(() => {
+          status.style.display = "none";
+        }, 5000);
+      }
+
+      // 페이지 로드 시 화질 프리셋 로드
+      window.addEventListener("load", function () {
+        loadQualityPresets();
+        setInterval(updateCurrentQualityInfo, 5000); // 5초마다 카메라 정보 업데이트
+      });
     </script>
   </body>
 </html>

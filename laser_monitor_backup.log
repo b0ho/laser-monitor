@@ -1,0 +1,499 @@
+2025-06-10 21:50:12,638 - laser_monitor - WARNING - ì´ë©”ì¼ ì„¤ì •ì´ ì™„ì „í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤. ì´ë©”ì¼ ê¸°ëŠ¥ì´ ë¹„í™œì„±í™”ë©ë‹ˆë‹¤.
+2025-06-10 21:50:31,202 - laser_monitor - INFO - YOLO ëª¨ë¸ ë¡œë“œ ì„±ê³µ: yolov8n.pt
+2025-06-10 21:50:31,206 - laser_monitor - INFO - ì¹´ë©”ë¼ ê°ì²´ ì´ˆê¸°í™” ì™„ë£Œ - ì†ŒìŠ¤: 0
+2025-06-10 21:50:31,207 - laser_monitor - INFO - ëª¨ë‹ˆí„°ë§ ìƒíƒœ ì´ˆê¸°í™” ì™„ë£Œ
+2025-06-10 21:50:31,219 - laser_monitor - WARNING - ì„¤ì • ì˜¤ë¥˜: SENDER_EMAILì´ ì„¤ì •ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.
+2025-06-10 21:50:31,220 - laser_monitor - WARNING - ì„¤ì • ì˜¤ë¥˜: SENDER_PASSWORDê°€ ì„¤ì •ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.
+2025-06-10 21:50:31,240 - laser_monitor - INFO - ë ˆì´ì € ëª¨ë‹ˆí„° ì• í”Œë¦¬ì¼€ì´ì…˜ ì‹œì‘
+2025-06-10 21:50:31,240 - laser_monitor - INFO - Debug ëª¨ë“œ: True
+2025-06-10 21:50:32,392 - laser_monitor - WARNING - ì´ë©”ì¼ ì„¤ì •ì´ ì™„ì „í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤. ì´ë©”ì¼ ê¸°ëŠ¥ì´ ë¹„í™œì„±í™”ë©ë‹ˆë‹¤.
+2025-06-10 21:50:38,126 - laser_monitor - INFO - YOLO ëª¨ë¸ ë¡œë“œ ì„±ê³µ: yolov8n.pt
+2025-06-10 21:50:38,129 - laser_monitor - INFO - ì¹´ë©”ë¼ ê°ì²´ ì´ˆê¸°í™” ì™„ë£Œ - ì†ŒìŠ¤: 0
+2025-06-10 21:50:38,129 - laser_monitor - INFO - ëª¨ë‹ˆí„°ë§ ìƒíƒœ ì´ˆê¸°í™” ì™„ë£Œ
+2025-06-10 21:50:38,131 - laser_monitor - WARNING - ì„¤ì • ì˜¤ë¥˜: SENDER_EMAILì´ ì„¤ì •ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.
+2025-06-10 21:50:38,132 - laser_monitor - WARNING - ì„¤ì • ì˜¤ë¥˜: SENDER_PASSWORDê°€ ì„¤ì •ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.
+2025-06-10 21:50:38,151 - laser_monitor - INFO - ë ˆì´ì € ëª¨ë‹ˆí„° ì• í”Œë¦¬ì¼€ì´ì…˜ ì‹œì‘
+2025-06-10 21:50:38,151 - laser_monitor - INFO - Debug ëª¨ë“œ: True
+2025-06-10 21:50:53,379 - laser_monitor - WARNING - ì´ë©”ì¼ ì„¤ì •ì´ ì™„ì „í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤. ì´ë©”ì¼ ê¸°ëŠ¥ì´ ë¹„í™œì„±í™”ë©ë‹ˆë‹¤.
+2025-06-10 21:50:55,827 - laser_monitor - INFO - ì¹´ë©”ë¼ ì´ˆê¸°í™” ì‹œë„: source=0
+2025-06-10 21:51:01,441 - laser_monitor - INFO - ì¹´ë©”ë¼ ì„¤ì • ì ìš© - í•´ìƒë„: 1280.0x720.0, FPS: 30.00003
+2025-06-10 21:51:01,441 - laser_monitor - WARNING - ìš”ì²­í•œ í•´ìƒë„(640x480)ì™€ ì‹¤ì œ í•´ìƒë„(1280.0x720.0)ê°€ ë‹¤ë¦…ë‹ˆë‹¤.
+2025-06-10 21:51:02,266 - laser_monitor - INFO - ì¹´ë©”ë¼ ì´ˆê¸°í™” ì„±ê³µ
+2025-06-10 21:51:02,267 - laser_monitor - INFO - ìƒˆ ì„¸ì…˜ ìƒì„±: ee85c283-f9a4-40b4-b149-0f3576fb46d9
+2025-06-10 21:51:15,885 - laser_monitor - WARNING - ì´ë©”ì¼ ì„¤ì •ì´ ì™„ì „í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤. ì´ë©”ì¼ ê¸°ëŠ¥ì´ ë¹„í™œì„±í™”ë©ë‹ˆë‹¤.
+2025-06-10 21:51:19,324 - laser_monitor - INFO - YOLO ëª¨ë¸ ë¡œë“œ ì„±ê³µ: yolov8n.pt
+2025-06-10 21:51:19,326 - laser_monitor - INFO - ì¹´ë©”ë¼ ê°ì²´ ì´ˆê¸°í™” ì™„ë£Œ - ì†ŒìŠ¤: 0
+2025-06-10 21:51:19,326 - laser_monitor - INFO - ëª¨ë‹ˆí„°ë§ ìƒíƒœ ì´ˆê¸°í™” ì™„ë£Œ
+2025-06-10 21:51:19,328 - laser_monitor - WARNING - ì„¤ì • ì˜¤ë¥˜: SENDER_EMAILì´ ì„¤ì •ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.
+2025-06-10 21:51:19,328 - laser_monitor - WARNING - ì„¤ì • ì˜¤ë¥˜: SENDER_PASSWORDê°€ ì„¤ì •ë˜ì§€ ì•Šì•˜ìŠµë‹ˆë‹¤.
+2025-06-10 21:51:19,338 - laser_monitor - INFO - ë ˆì´ì € ëª¨ë‹ˆí„° ì• í”Œë¦¬ì¼€ì´ì…˜ ì‹œì‘
+2025-06-10 21:51:19,338 - laser_monitor - INFO - Debug ëª¨ë“œ: True
+2025-06-10 21:51:25,832 - laser_monitor - INFO - ì¹´ë©”ë¼ ì´ˆê¸°í™” ì‹œë„: source=0
+2025-06-10 21:51:31,282 - laser_monitor - INFO - ì¹´ë©”ë¼ ì„¤ì • ì ìš© - í•´ìƒë„: 1280.0x720.0, FPS: 30.00003
+2025-06-10 21:51:31,282 - laser_monitor - WARNING - ìš”ì²­í•œ í•´ìƒë„(640x480)ì™€ ì‹¤ì œ í•´ìƒë„(1280.0x720.0)ê°€ ë‹¤ë¦…ë‹ˆë‹¤.
+2025-06-10 21:51:32,077 - laser_monitor - INFO - ì¹´ë©”ë¼ ì´ˆê¸°í™” ì„±ê³µ
+2025-06-10 21:51:32,077 - laser_monitor - INFO - ìƒˆ ì„¸ì…˜ ìƒì„±: ee85c283-f9a4-40b4-b149-0f3576fb46d9
+2025-06-10 21:52:36,600 - laser_monitor - WARNING - ì´ë©”ì¼ ì„¤ì •ì´ ì™„ì „í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤. ì´ë©”ì¼ ê¸°ëŠ¥ì´ ë¹„í™œì„±í™”ë©ë‹ˆë‹¤.
+2025-06-10 21:52:39,158 - laser_monitor - INFO - YOLO ëª¨ë¸ ë¡œë“œ ì„±ê³µ: yolov8n.pt
+2025-06-10 21:52:39,159 - laser_monitor - INFO - ì¹´ë©”ë¼ ê°ì²´ ì´ˆê¸°í™” ì™„ë£Œ - ì†ŒìŠ¤: 0
+2025-06-10 21:52:39,159 - laser_monitor - INFO - ëª¨ë‹ˆí„°ë§ ìƒíƒœ ì´ˆê¸°í™” ì™„ë£Œ
+2025-06-10 21:52:39,165 - laser_monitor - INFO - ë ˆì´ì € ëª¨ë‹ˆí„° ì• í”Œë¦¬ì¼€ì´ì…˜ ì‹œì‘
+2025-06-10 21:52:39,165 - laser_monitor - INFO - Debug ëª¨ë“œ: True
+2025-06-10 21:52:55,827 - laser_monitor - INFO - ì¹´ë©”ë¼ ì´ˆê¸°í™” ì‹œë„: source=0
+2025-06-10 21:52:59,638 - laser_monitor - INFO - ì¹´ë©”ë¼ ì„¤ì • ì ìš© - í•´ìƒë„: 1280.0x720.0, FPS: 30.00003
+2025-06-10 21:52:59,638 - laser_monitor - WARNING - ìš”ì²­í•œ í•´ìƒë„(640x480)ì™€ ì‹¤ì œ í•´ìƒë„(1280.0x720.0)ê°€ ë‹¤ë¦…ë‹ˆë‹¤.
+2025-06-10 21:53:00,426 - laser_monitor - INFO - ì¹´ë©”ë¼ ì´ˆê¸°í™” ì„±ê³µ
+2025-06-10 21:53:00,426 - laser_monitor - INFO - ìƒˆ ì„¸ì…˜ ìƒì„±: ee85c283-f9a4-40b4-b149-0f3576fb46d9
+2025-06-10 21:54:12,526 - laser_monitor - WARNING - ì´ë©”ì¼ ì„¤ì •ì´ ì™„ì „í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤. ì´ë©”ì¼ ê¸°ëŠ¥ì´ ë¹„í™œì„±í™”ë©ë‹ˆë‹¤.
+2025-06-10 21:54:14,892 - laser_monitor - INFO - YOLO ëª¨ë¸ ë¡œë“œ ì„±ê³µ: yolov8n.pt
+2025-06-10 21:54:14,893 - laser_monitor - INFO - ì¹´ë©”ë¼ ê°ì²´ ì´ˆê¸°í™” ì™„ë£Œ - ì†ŒìŠ¤: 0
+2025-06-10 21:54:14,894 - laser_monitor - INFO - ëª¨ë‹ˆí„°ë§ ìƒíƒœ ì´ˆê¸°í™” ì™„ë£Œ
+2025-06-10 21:54:14,899 - laser_monitor - INFO - ë ˆì´ì € ëª¨ë‹ˆí„° ì• í”Œë¦¬ì¼€ì´ì…˜ ì‹œì‘
+2025-06-10 21:54:14,900 - laser_monitor - INFO - Debug ëª¨ë“œ: True
+2025-06-10 21:54:25,830 - laser_monitor - INFO - ì¹´ë©”ë¼ ì´ˆê¸°í™” ì‹œë„: source=0
+2025-06-10 21:54:29,681 - laser_monitor - INFO - ì¹´ë©”ë¼ ì„¤ì • ì ìš© - í•´ìƒë„: 1280.0x720.0, FPS: 30.00003
+2025-06-10 21:54:29,681 - laser_monitor - WARNING - ìš”ì²­í•œ í•´ìƒë„(640x480)ì™€ ì‹¤ì œ í•´ìƒë„(1280.0x720.0)ê°€ ë‹¤ë¦…ë‹ˆë‹¤.
+2025-06-10 21:54:30,442 - laser_monitor - INFO - ì¹´ë©”ë¼ ì´ˆê¸°í™” ì„±ê³µ
+2025-06-10 21:54:30,442 - laser_monitor - INFO - ìƒˆ ì„¸ì…˜ ìƒì„±: ee85c283-f9a4-40b4-b149-0f3576fb46d9
+2025-06-10 21:55:12,894 - laser_monitor - WARNING - ì´ë©”ì¼ ì„¤ì •ì´ ì™„ì „í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤. ì´ë©”ì¼ ê¸°ëŠ¥ì´ ë¹„í™œì„±í™”ë©ë‹ˆë‹¤.
+2025-06-10 21:55:15,131 - laser_monitor - INFO - YOLO ëª¨ë¸ ë¡œë“œ ì„±ê³µ: yolov8n.pt
+2025-06-10 21:55:15,136 - laser_monitor - INFO - ë ˆì´ì € ëª¨ë‹ˆí„° ì• í”Œë¦¬ì¼€ì´ì…˜ ì‹œì‘
+2025-06-10 21:55:15,136 - laser_monitor - INFO - Debug ëª¨ë“œ: True
+2025-06-10 21:55:15,290 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:15,295 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:15,300 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:15,322 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:15,325 - laser_monitor - ERROR - ìº¡ì²˜ ëª©ë¡ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 266, in get_captures
+    return jsonify({'captures': state.captures})
+NameError: name 'state' is not defined
+2025-06-10 21:55:16,319 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:17,321 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:18,320 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:19,321 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:20,320 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:21,321 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:22,320 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:23,322 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:24,321 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:25,322 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:25,324 - laser_monitor - ERROR - ìº¡ì²˜ ëª©ë¡ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 266, in get_captures
+    return jsonify({'captures': state.captures})
+NameError: name 'state' is not defined
+2025-06-10 21:55:25,827 - laser_monitor - ERROR - í•˜íŠ¸ë¹„íŠ¸ ì²˜ë¦¬ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 179, in heartbeat
+    session = state.get_or_create_session(session_id)
+NameError: name 'state' is not defined
+2025-06-10 21:55:26,321 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:27,319 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:28,322 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:29,321 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:30,320 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:31,320 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 238, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:33,049 - laser_monitor - WARNING - ì´ë©”ì¼ ì„¤ì •ì´ ì™„ì „í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤. ì´ë©”ì¼ ê¸°ëŠ¥ì´ ë¹„í™œì„±í™”ë©ë‹ˆë‹¤.
+2025-06-10 21:55:34,892 - laser_monitor - INFO - YOLO ëª¨ë¸ ë¡œë“œ ì„±ê³µ: yolov8n.pt
+2025-06-10 21:55:34,896 - laser_monitor - INFO - ë ˆì´ì € ëª¨ë‹ˆí„° ì• í”Œë¦¬ì¼€ì´ì…˜ ì‹œì‘
+2025-06-10 21:55:34,896 - laser_monitor - INFO - Debug ëª¨ë“œ: True
+2025-06-10 21:55:35,028 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:35,031 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:35,035 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:35,322 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:35,323 - laser_monitor - ERROR - ìº¡ì²˜ ëª©ë¡ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 267, in get_captures
+    return jsonify({'captures': state.captures})
+NameError: name 'state' is not defined
+2025-06-10 21:55:36,322 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:37,321 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:38,320 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:39,321 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:40,320 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:41,320 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:42,321 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:43,321 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:44,273 - laser_monitor - WARNING - ì´ë©”ì¼ ì„¤ì •ì´ ì™„ì „í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤. ì´ë©”ì¼ ê¸°ëŠ¥ì´ ë¹„í™œì„±í™”ë©ë‹ˆë‹¤.
+2025-06-10 21:55:44,320 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:45,320 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:45,321 - laser_monitor - ERROR - ìº¡ì²˜ ëª©ë¡ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 267, in get_captures
+    return jsonify({'captures': state.captures})
+NameError: name 'state' is not defined
+2025-06-10 21:55:46,320 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:46,653 - laser_monitor - INFO - YOLO ëª¨ë¸ ë¡œë“œ ì„±ê³µ: yolov8n.pt
+2025-06-10 21:55:46,658 - laser_monitor - INFO - ë ˆì´ì € ëª¨ë‹ˆí„° ì• í”Œë¦¬ì¼€ì´ì…˜ ì‹œì‘
+2025-06-10 21:55:46,659 - laser_monitor - INFO - Debug ëª¨ë“œ: True
+2025-06-10 21:55:47,321 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:48,322 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:49,320 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:50,320 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:51,321 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:51,632 - laser_monitor - INFO - ìƒˆ ì„¸ì…˜ ìƒì„±: 0629e320-503b-4952-a900-1f40f5b7bb57
+2025-06-10 21:55:51,651 - laser_monitor - ERROR - ë©”ì¸ í˜ì´ì§€ ë¡œë“œ ì¤‘ ì˜¤ë¥˜: name 'db' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 157, in index
+    saved_email = db.get_setting('email')
+NameError: name 'db' is not defined
+2025-06-10 21:55:52,321 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:53,321 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:54,321 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:55,323 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:55,326 - laser_monitor - ERROR - ìº¡ì²˜ ëª©ë¡ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 267, in get_captures
+    return jsonify({'captures': state.captures})
+NameError: name 'state' is not defined
+2025-06-10 21:55:55,827 - laser_monitor - ERROR - í•˜íŠ¸ë¹„íŠ¸ ì²˜ë¦¬ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 180, in heartbeat
+    session = state.get_or_create_session(session_id)
+NameError: name 'state' is not defined
+2025-06-10 21:55:56,320 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:57,321 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:58,322 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:55:59,320 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:00,321 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:01,320 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:02,321 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:03,320 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:04,320 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:05,322 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:05,323 - laser_monitor - ERROR - ìº¡ì²˜ ëª©ë¡ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 267, in get_captures
+    return jsonify({'captures': state.captures})
+NameError: name 'state' is not defined
+2025-06-10 21:56:06,321 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:07,319 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:08,320 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:09,322 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:10,320 - laser_monitor - ERROR - ìƒíƒœ ì¡°íšŒ ì¤‘ ì˜¤ë¥˜: name 'state' is not defined
+Traceback (most recent call last):
+  File "/Users/b0ho/git/laser-monitor/laser_monitor/app.py", line 239, in get_status
+    'status': state.status,
+NameError: name 'state' is not defined
+2025-06-10 21:56:12,022 - laser_monitor - WARNING - ì´ë©”ì¼ ì„¤ì •ì´ ì™„ì „í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤. ì´ë©”ì¼ ê¸°ëŠ¥ì´ ë¹„í™œì„±í™”ë©ë‹ˆë‹¤.
+2025-06-10 21:56:14,290 - laser_monitor - INFO - YOLO ëª¨ë¸ ë¡œë“œ ì„±ê³µ: yolov8n.pt
+2025-06-10 21:56:14,291 - laser_monitor - INFO - ì¹´ë©”ë¼ ê°ì²´ ì´ˆê¸°í™” ì™„ë£Œ - ì†ŒìŠ¤: 0
+2025-06-10 21:56:14,291 - laser_monitor - INFO - ëª¨ë‹ˆí„°ë§ ìƒíƒœ ì´ˆê¸°í™” ì™„ë£Œ
+2025-06-10 21:56:14,296 - laser_monitor - INFO - ë ˆì´ì € ëª¨ë‹ˆí„° ì• í”Œë¦¬ì¼€ì´ì…˜ ì‹œì‘
+2025-06-10 21:56:14,296 - laser_monitor - INFO - Debug ëª¨ë“œ: True
+2025-06-10 21:56:25,828 - laser_monitor - INFO - ì¹´ë©”ë¼ ì´ˆê¸°í™” ì‹œë„: source=0
+2025-06-10 21:56:29,713 - laser_monitor - INFO - ì¹´ë©”ë¼ ì„¤ì • ì ìš© - í•´ìƒë„: 1280.0x720.0, FPS: 30.00003
+2025-06-10 21:56:29,713 - laser_monitor - WARNING - ìš”ì²­í•œ í•´ìƒë„(640x480)ì™€ ì‹¤ì œ í•´ìƒë„(1280.0x720.0)ê°€ ë‹¤ë¦…ë‹ˆë‹¤.
+2025-06-10 21:56:30,504 - laser_monitor - INFO - ì¹´ë©”ë¼ ì´ˆê¸°í™” ì„±ê³µ
+2025-06-10 21:56:30,504 - laser_monitor - INFO - ìƒˆ ì„¸ì…˜ ìƒì„±: ee85c283-f9a4-40b4-b149-0f3576fb46d9
+2025-06-10 21:56:36,070 - laser_monitor - WARNING - ì´ë©”ì¼ ì„¤ì •ì´ ì™„ì „í•˜ì§€ ì•ŠìŠµë‹ˆë‹¤. ì´ë©”ì¼ ê¸°ëŠ¥ì´ ë¹„í™œì„±í™”ë©ë‹ˆë‹¤.
+2025-06-10 21:56:38,310 - laser_monitor - INFO - YOLO ëª¨ë¸ ë¡œë“œ ì„±ê³µ: yolov8n.pt
+2025-06-10 21:56:38,311 - laser_monitor - INFO - ì¹´ë©”ë¼ ê°ì²´ ì´ˆê¸°í™” ì™„ë£Œ - ì†ŒìŠ¤: 0
+2025-06-10 21:56:38,312 - laser_monitor - INFO - ëª¨ë‹ˆí„°ë§ ìƒíƒœ ì´ˆê¸°í™” ì™„ë£Œ
+2025-06-10 21:56:38,316 - laser_monitor - INFO - ë ˆì´ì € ëª¨ë‹ˆí„° ì• í”Œë¦¬ì¼€ì´ì…˜ ì‹œì‘
+2025-06-10 21:56:38,316 - laser_monitor - INFO - Debug ëª¨ë“œ: True
+2025-06-10 21:56:41,703 - laser_monitor - INFO - ìƒˆ ì„¸ì…˜ ìƒì„±: 22b78ee2-f1b2-45fa-a821-4e8b661057b4
+2025-06-10 21:56:41,705 - laser_monitor - INFO - ìƒˆ ì„¸ì…˜ ìƒì„±: 22b78ee2-f1b2-45fa-a821-4e8b661057b4
+2025-06-10 21:56:41,705 - laser_monitor - INFO - ì„¸ì…˜ 22b78ee2-f1b2-45fa-a821-4e8b661057b4 ëª¨ë‹ˆí„°ë§ ì‹œì‘
+2025-06-10 22:00:48,844 - laser_monitor - INFO - ì„¸ì…˜ ee85c283-f9a4-40b4-b149-0f3576fb46d9 ëª¨ë‹ˆí„°ë§ ì‹œì‘
+2025-06-10 22:00:48,864 - laser_monitor - WARNING - 404 ì˜¤ë¥˜: http://127.0.0.1:5000/disconnect
+2025-06-10 22:00:49,084 - laser_monitor - INFO - í”„ë ˆì„ ìƒì„± ì‹œì‘: ì„¸ì…˜ ee85c283-f9a4-40b4-b149-0f3576fb46d9
+2025-06-10 22:00:53,317 - laser_monitor - INFO - í”„ë ˆì„ ìƒì„± ì‹œì‘: ì„¸ì…˜ ee85c283-f9a4-40b4-b149-0f3576fb46d9
+2025-06-10 22:14:31,441 - laser_monitor - WARNING - ÀÌ¸ŞÀÏ ¼³Á¤ÀÌ ¿ÏÀüÇÏÁö ¾Ê½À´Ï´Ù. ÀÌ¸ŞÀÏ ±â´ÉÀÌ ºñÈ°¼ºÈ­µË´Ï´Ù.
+2025-06-10 22:14:36,597 - laser_monitor - INFO - YOLO ¸ğµ¨ ·Îµå ¼º°ø: yolov8n.pt
+2025-06-10 22:14:36,598 - laser_monitor - INFO - Ä«¸Ş¶ó °´Ã¼ ÃÊ±âÈ­ ¿Ï·á - ¼Ò½º: 0
+2025-06-10 22:14:36,599 - laser_monitor - INFO - ¸ğ´ÏÅÍ¸µ »óÅÂ ÃÊ±âÈ­ ¿Ï·á
+2025-06-10 22:14:36,613 - laser_monitor - INFO - ·¹ÀÌÀú ¸ğ´ÏÅÍ ¾ÖÇÃ¸®ÄÉÀÌ¼Ç ½ÃÀÛ
+2025-06-10 22:14:36,613 - laser_monitor - INFO - Debug ¸ğµå: True
+2025-06-10 22:14:37,045 - laser_monitor - WARNING - ÀÌ¸ŞÀÏ ¼³Á¤ÀÌ ¿ÏÀüÇÏÁö ¾Ê½À´Ï´Ù. ÀÌ¸ŞÀÏ ±â´ÉÀÌ ºñÈ°¼ºÈ­µË´Ï´Ù.
+2025-06-10 22:14:40,382 - laser_monitor - INFO - YOLO ¸ğµ¨ ·Îµå ¼º°ø: yolov8n.pt
+2025-06-10 22:14:40,384 - laser_monitor - INFO - Ä«¸Ş¶ó °´Ã¼ ÃÊ±âÈ­ ¿Ï·á - ¼Ò½º: 0
+2025-06-10 22:14:40,384 - laser_monitor - INFO - ¸ğ´ÏÅÍ¸µ »óÅÂ ÃÊ±âÈ­ ¿Ï·á
+2025-06-10 22:14:40,389 - laser_monitor - INFO - ·¹ÀÌÀú ¸ğ´ÏÅÍ ¾ÖÇÃ¸®ÄÉÀÌ¼Ç ½ÃÀÛ
+2025-06-10 22:14:40,389 - laser_monitor - INFO - Debug ¸ğµå: True
+2025-06-10 22:15:26,462 - laser_monitor - WARNING - ÀÌ¸ŞÀÏ ¼³Á¤ÀÌ ¿ÏÀüÇÏÁö ¾Ê½À´Ï´Ù. ÀÌ¸ŞÀÏ ±â´ÉÀÌ ºñÈ°¼ºÈ­µË´Ï´Ù.
+2025-06-10 22:15:29,694 - laser_monitor - INFO - YOLO ¸ğµ¨ ·Îµå ¼º°ø: yolov8n.pt
+2025-06-10 22:15:29,696 - laser_monitor - INFO - Ä«¸Ş¶ó °´Ã¼ ÃÊ±âÈ­ ¿Ï·á - ¼Ò½º: 0
+2025-06-10 22:15:29,696 - laser_monitor - INFO - ¸ğ´ÏÅÍ¸µ »óÅÂ ÃÊ±âÈ­ ¿Ï·á
+2025-06-10 22:15:29,700 - laser_monitor - INFO - ·¹ÀÌÀú ¸ğ´ÏÅÍ ¾ÖÇÃ¸®ÄÉÀÌ¼Ç ½ÃÀÛ
+2025-06-10 22:15:29,700 - laser_monitor - INFO - Debug ¸ğµå: True
+2025-06-10 22:15:30,126 - laser_monitor - WARNING - ÀÌ¸ŞÀÏ ¼³Á¤ÀÌ ¿ÏÀüÇÏÁö ¾Ê½À´Ï´Ù. ÀÌ¸ŞÀÏ ±â´ÉÀÌ ºñÈ°¼ºÈ­µË´Ï´Ù.
+2025-06-10 22:15:33,316 - laser_monitor - INFO - YOLO ¸ğµ¨ ·Îµå ¼º°ø: yolov8n.pt
+2025-06-10 22:15:33,317 - laser_monitor - INFO - Ä«¸Ş¶ó °´Ã¼ ÃÊ±âÈ­ ¿Ï·á - ¼Ò½º: 0
+2025-06-10 22:15:33,318 - laser_monitor - INFO - ¸ğ´ÏÅÍ¸µ »óÅÂ ÃÊ±âÈ­ ¿Ï·á
+2025-06-10 22:15:33,322 - laser_monitor - INFO - ·¹ÀÌÀú ¸ğ´ÏÅÍ ¾ÖÇÃ¸®ÄÉÀÌ¼Ç ½ÃÀÛ
+2025-06-10 22:15:33,322 - laser_monitor - INFO - Debug ¸ğµå: True
+2025-06-10 22:17:55,967 - laser_monitor - INFO - »õ ¼¼¼Ç »ı¼º: 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 22:17:55,968 - laser_monitor - INFO - Ä«¸Ş¶ó ÃÊ±âÈ­ ½Ãµµ: source=0
+2025-06-10 22:17:58,356 - laser_monitor - INFO - Ä«¸Ş¶ó ¼³Á¤ Àû¿ë - ÇØ»óµµ: 640.0x480.0, FPS: 30.00003000003
+2025-06-10 22:17:58,458 - laser_monitor - INFO - Ä«¸Ş¶ó ÃÊ±âÈ­ ¼º°ø
+2025-06-10 22:17:58,458 - laser_monitor - INFO - »õ ¼¼¼Ç »ı¼º: 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 22:17:58,458 - laser_monitor - INFO - ¼¼¼Ç 32fd0c61-ee1f-470b-88cb-1763f5c26a4a ¸ğ´ÏÅÍ¸µ ½ÃÀÛ
+2025-06-10 22:17:58,509 - laser_monitor - INFO - ÇÁ·¹ÀÓ »ı¼º ½ÃÀÛ: ¼¼¼Ç 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 22:18:00,745 - laser_monitor - WARNING - 404 ¿À·ù: http://127.0.0.1:5000/favicon.ico
+2025-06-10 22:18:01,317 - laser_monitor - INFO - ÇÁ·¹ÀÓ »ı¼º ½ÃÀÛ: ¼¼¼Ç 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 22:18:19,567 - laser_monitor - WARNING - ÇÁ·¹ÀÓÀ» ÀĞÀ» ¼ö ¾ø½À´Ï´Ù.
+2025-06-10 22:18:19,571 - laser_monitor - INFO - Ä«¸Ş¶ó ¿¬°á ÇØÁ¦
+2025-06-10 22:18:19,571 - laser_monitor - WARNING - Ä«¸Ş¶ó Àç¿¬°á ½Ãµµ
+2025-06-10 22:18:19,572 - laser_monitor - INFO - Ä«¸Ş¶ó ÃÊ±âÈ­ ½Ãµµ: source=0
+2025-06-10 22:18:22,368 - laser_monitor - INFO - Ä«¸Ş¶ó ¼³Á¤ Àû¿ë - ÇØ»óµµ: 1280.0x720.0, FPS: 30.00003000003
+2025-06-10 22:18:22,369 - laser_monitor - WARNING - ¿äÃ»ÇÑ ÇØ»óµµ(640x480)¿Í ½ÇÁ¦ ÇØ»óµµ(1280.0x720.0)°¡ ´Ù¸¨´Ï´Ù.
+2025-06-10 22:18:23,201 - laser_monitor - INFO - Ä«¸Ş¶ó ÃÊ±âÈ­ ¼º°ø
+2025-06-10 22:24:15,423 - laser_monitor - WARNING - ÀÌ¸ŞÀÏ ¼³Á¤ÀÌ ¿ÏÀüÇÏÁö ¾Ê½À´Ï´Ù. ÀÌ¸ŞÀÏ ±â´ÉÀÌ ºñÈ°¼ºÈ­µË´Ï´Ù.
+2025-06-10 22:24:18,885 - laser_monitor - INFO - YOLO ¸ğµ¨ ·Îµå ¼º°ø: yolov8n.pt
+2025-06-10 22:24:18,886 - laser_monitor - INFO - Ä«¸Ş¶ó °´Ã¼ ÃÊ±âÈ­ ¿Ï·á - ¼Ò½º: 0
+2025-06-10 22:24:18,887 - laser_monitor - INFO - ¸ğ´ÏÅÍ¸µ »óÅÂ ÃÊ±âÈ­ ¿Ï·á
+2025-06-10 22:24:18,891 - laser_monitor - INFO - ·¹ÀÌÀú ¸ğ´ÏÅÍ ¾ÖÇÃ¸®ÄÉÀÌ¼Ç ½ÃÀÛ
+2025-06-10 22:24:18,892 - laser_monitor - INFO - Debug ¸ğµå: True
+2025-06-10 22:24:19,347 - laser_monitor - WARNING - ÀÌ¸ŞÀÏ ¼³Á¤ÀÌ ¿ÏÀüÇÏÁö ¾Ê½À´Ï´Ù. ÀÌ¸ŞÀÏ ±â´ÉÀÌ ºñÈ°¼ºÈ­µË´Ï´Ù.
+2025-06-10 22:24:22,763 - laser_monitor - INFO - YOLO ¸ğµ¨ ·Îµå ¼º°ø: yolov8n.pt
+2025-06-10 22:24:22,765 - laser_monitor - INFO - Ä«¸Ş¶ó °´Ã¼ ÃÊ±âÈ­ ¿Ï·á - ¼Ò½º: 0
+2025-06-10 22:24:22,765 - laser_monitor - INFO - ¸ğ´ÏÅÍ¸µ »óÅÂ ÃÊ±âÈ­ ¿Ï·á
+2025-06-10 22:24:22,769 - laser_monitor - INFO - ·¹ÀÌÀú ¸ğ´ÏÅÍ ¾ÖÇÃ¸®ÄÉÀÌ¼Ç ½ÃÀÛ
+2025-06-10 22:24:22,769 - laser_monitor - INFO - Debug ¸ğµå: True
+2025-06-10 22:24:48,020 - laser_monitor - INFO - Ä«¸Ş¶ó ÃÊ±âÈ­ ½Ãµµ: source=0
+2025-06-10 22:24:50,837 - laser_monitor - INFO - Ä«¸Ş¶ó ¼³Á¤ Àû¿ë - ÇØ»óµµ: 1280.0x720.0, FPS: 30.00003000003
+2025-06-10 22:24:50,837 - laser_monitor - WARNING - ¿äÃ»ÇÑ ÇØ»óµµ(640x480)¿Í ½ÇÁ¦ ÇØ»óµµ(1280.0x720.0)°¡ ´Ù¸¨´Ï´Ù.
+2025-06-10 22:24:51,654 - laser_monitor - INFO - Ä«¸Ş¶ó ÃÊ±âÈ­ ¼º°ø
+2025-06-10 22:24:51,655 - laser_monitor - INFO - »õ ¼¼¼Ç »ı¼º: 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 22:25:38,086 - laser_monitor - INFO - ÇÁ·¹ÀÓ »ı¼º ½ÃÀÛ: ¼¼¼Ç 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 22:25:39,801 - laser_monitor - WARNING - 404 ¿À·ù: http://127.0.0.1:5000/disconnect
+2025-06-10 22:25:39,803 - laser_monitor - INFO - ¼¼¼Ç 32fd0c61-ee1f-470b-88cb-1763f5c26a4a ¸ğ´ÏÅÍ¸µ ½ÃÀÛ
+2025-06-10 22:25:39,849 - laser_monitor - INFO - ÇÁ·¹ÀÓ »ı¼º ½ÃÀÛ: ¼¼¼Ç 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 22:25:43,083 - laser_monitor - INFO - ÇÁ·¹ÀÓ »ı¼º ½ÃÀÛ: ¼¼¼Ç 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 22:27:54,583 - laser_monitor - INFO - »õ ¼¼¼Ç »ı¼º: 1f274f7f-326d-48a4-b074-ec4edead338d
+2025-06-10 22:27:54,584 - laser_monitor - INFO - »õ ¼¼¼Ç »ı¼º: 1f274f7f-326d-48a4-b074-ec4edead338d
+2025-06-10 22:27:54,585 - laser_monitor - INFO - ¼¼¼Ç 1f274f7f-326d-48a4-b074-ec4edead338d ¸ğ´ÏÅÍ¸µ ½ÃÀÛ

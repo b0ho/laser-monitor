@@ -279,6 +279,41 @@ def get_captures():
         logger.log_exception("캡처 목록 조회 중 오류", e)
         return jsonify({'error': str(e)}), 500
 
+@app.route('/capture_current')
+def capture_current():
+    """현재 화면 캡처"""
+    try:
+        # 카메라가 활성 상태인지 확인
+        if not hasattr(state, 'camera') or not state.camera or not state.camera.is_active():
+            return jsonify({'success': False, 'error': '카메라가 활성화되지 않았습니다.'})
+
+        # 현재 프레임 가져오기
+        ret, frame = state.camera.get_frame()
+        if not ret or frame is None:
+            return jsonify({'success': False, 'error': '프레임을 가져올 수 없습니다.'})
+
+        # 객체 감지 적용
+        processed_frame = detect_tshirt_center(frame, state)
+        if processed_frame is None:
+            processed_frame = frame
+
+        # 수동 캡처로 저장
+        state.add_capture(processed_frame, is_manual=True)
+
+        if state.captures:
+            latest_capture = state.captures[0]  # 가장 최근 캡처
+            logger.info(f"수동 캡처 완료: {latest_capture.get('time', 'Unknown')}")
+            return jsonify({
+                'success': True,
+                'capture': latest_capture
+            })
+        else:
+            return jsonify({'success': False, 'error': '캡처 저장에 실패했습니다.'})
+
+    except Exception as e:
+        logger.log_exception("현재 화면 캡처 중 오류", e)
+        return jsonify({'success': False, 'error': str(e)}), 500
+
 @app.route('/save_email', methods=['POST'])
 def save_email():
     """이메일 주소 저장"""
@@ -325,6 +360,91 @@ def send_alert():
 
     except Exception as e:
         logger.log_exception("알림 전송 중 오류", e)
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+@app.route('/get_quality_presets')
+def get_quality_presets():
+    """화질 프리셋 목록 조회"""
+    try:
+        presets = Config.get_available_presets()
+        return jsonify({
+            'success': True,
+            'presets': presets,
+            'current': Config.CURRENT_QUALITY_PRESET
+        })
+    except Exception as e:
+        logger.log_exception("화질 프리셋 조회 중 오류", e)
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+@app.route('/get_current_quality')
+def get_current_quality():
+    """현재 화질 설정 조회"""
+    try:
+        current_preset = Config.get_quality_preset()
+
+        # 카메라 정보 조회 (state.camera 사용)
+        camera_info = None
+        if hasattr(state, 'camera') and state.camera and hasattr(state.camera, 'get_camera_info'):
+            camera_info = state.camera.get_camera_info()
+
+        return jsonify({
+            'success': True,
+            'preset': current_preset,
+            'preset_name': Config.CURRENT_QUALITY_PRESET,
+            'camera_info': camera_info
+        })
+    except Exception as e:
+        logger.log_exception("현재 화질 설정 조회 중 오류", e)
+        return jsonify({'success': False, 'error': str(e)}), 500
+
+@app.route('/set_quality_preset', methods=['POST'])
+def set_quality_preset():
+    """화질 프리셋 변경"""
+    try:
+        data = request.get_json()
+        if not data:
+            return jsonify({'success': False, 'error': '데이터가 없습니다.'})
+
+        preset_name = data.get('preset')
+        if not preset_name:
+            return jsonify({'success': False, 'error': '프리셋 이름이 필요합니다.'})
+
+        # 프리셋 설정 적용
+        if Config.set_quality_preset(preset_name):
+            # 카메라에 새 설정 적용 (state.camera 사용)
+            if hasattr(state, 'camera') and state.camera and state.camera.is_active():
+                preset = Config.get_quality_preset(preset_name)
+                new_settings = {
+                    'width': preset['width'],
+                    'height': preset['height'],
+                    'fps': preset['fps'],
+                    'quality': preset['quality']
+                }
+
+                # 카메라 설정 업데이트
+                if state.camera.update_settings(new_settings):
+                    logger.info(f"화질 프리셋 변경 성공: {preset_name} ({preset['description']})")
+                    return jsonify({
+                        'success': True,
+                        'preset': preset,
+                        'message': f"화질이 '{preset['name']}'으로 변경되었습니다."
+                    })
+                else:
+                    logger.warning(f"화질 프리셋 설정 실패: {preset_name}")
+                    return jsonify({'success': False, 'error': '카메라 설정 적용 실패'})
+            else:
+                logger.info(f"화질 프리셋 설정 (카메라 비활성 상태): {preset_name}")
+                preset = Config.get_quality_preset(preset_name)
+                return jsonify({
+                    'success': True,
+                    'preset': preset,
+                    'message': f"화질이 '{preset['name']}'으로 설정되었습니다. (다음 카메라 시작 시 적용)"
+                })
+        else:
+            return jsonify({'success': False, 'error': '유효하지 않은 프리셋입니다.'})
+
+    except Exception as e:
+        logger.log_exception("화질 프리셋 변경 중 오류", e)
         return jsonify({'success': False, 'error': str(e)}), 500
 
 @app.errorhandler(404)

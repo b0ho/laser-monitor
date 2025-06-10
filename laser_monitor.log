@@ -432,3 +432,520 @@ NameError: name 'state' is not defined
 2025-06-10 22:00:48,864 - laser_monitor - WARNING - 404 오류: http://127.0.0.1:5000/disconnect
 2025-06-10 22:00:49,084 - laser_monitor - INFO - 프레임 생성 시작: 세션 ee85c283-f9a4-40b4-b149-0f3576fb46d9
 2025-06-10 22:00:53,317 - laser_monitor - INFO - 프레임 생성 시작: 세션 ee85c283-f9a4-40b4-b149-0f3576fb46d9
+2025-06-10 22:14:31,441 - laser_monitor - WARNING - �̸��� ������ �������� �ʽ��ϴ�. �̸��� ����� ��Ȱ��ȭ�˴ϴ�.
+2025-06-10 22:14:36,597 - laser_monitor - INFO - YOLO �� �ε� ����: yolov8n.pt
+2025-06-10 22:14:36,598 - laser_monitor - INFO - ī�޶� ��ü �ʱ�ȭ �Ϸ� - �ҽ�: 0
+2025-06-10 22:14:36,599 - laser_monitor - INFO - ����͸� ���� �ʱ�ȭ �Ϸ�
+2025-06-10 22:14:36,613 - laser_monitor - INFO - ������ ����� ���ø����̼� ����
+2025-06-10 22:14:36,613 - laser_monitor - INFO - Debug ���: True
+2025-06-10 22:14:37,045 - laser_monitor - WARNING - �̸��� ������ �������� �ʽ��ϴ�. �̸��� ����� ��Ȱ��ȭ�˴ϴ�.
+2025-06-10 22:14:40,382 - laser_monitor - INFO - YOLO �� �ε� ����: yolov8n.pt
+2025-06-10 22:14:40,384 - laser_monitor - INFO - ī�޶� ��ü �ʱ�ȭ �Ϸ� - �ҽ�: 0
+2025-06-10 22:14:40,384 - laser_monitor - INFO - ����͸� ���� �ʱ�ȭ �Ϸ�
+2025-06-10 22:14:40,389 - laser_monitor - INFO - ������ ����� ���ø����̼� ����
+2025-06-10 22:14:40,389 - laser_monitor - INFO - Debug ���: True
+2025-06-10 22:15:26,462 - laser_monitor - WARNING - �̸��� ������ �������� �ʽ��ϴ�. �̸��� ����� ��Ȱ��ȭ�˴ϴ�.
+2025-06-10 22:15:29,694 - laser_monitor - INFO - YOLO �� �ε� ����: yolov8n.pt
+2025-06-10 22:15:29,696 - laser_monitor - INFO - ī�޶� ��ü �ʱ�ȭ �Ϸ� - �ҽ�: 0
+2025-06-10 22:15:29,696 - laser_monitor - INFO - ����͸� ���� �ʱ�ȭ �Ϸ�
+2025-06-10 22:15:29,700 - laser_monitor - INFO - ������ ����� ���ø����̼� ����
+2025-06-10 22:15:29,700 - laser_monitor - INFO - Debug ���: True
+2025-06-10 22:15:30,126 - laser_monitor - WARNING - �̸��� ������ �������� �ʽ��ϴ�. �̸��� ����� ��Ȱ��ȭ�˴ϴ�.
+2025-06-10 22:15:33,316 - laser_monitor - INFO - YOLO �� �ε� ����: yolov8n.pt
+2025-06-10 22:15:33,317 - laser_monitor - INFO - ī�޶� ��ü �ʱ�ȭ �Ϸ� - �ҽ�: 0
+2025-06-10 22:15:33,318 - laser_monitor - INFO - ����͸� ���� �ʱ�ȭ �Ϸ�
+2025-06-10 22:15:33,322 - laser_monitor - INFO - ������ ����� ���ø����̼� ����
+2025-06-10 22:15:33,322 - laser_monitor - INFO - Debug ���: True
+2025-06-10 22:17:55,967 - laser_monitor - INFO - �� ���� ����: 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 22:17:55,968 - laser_monitor - INFO - ī�޶� �ʱ�ȭ �õ�: source=0
+2025-06-10 22:17:58,356 - laser_monitor - INFO - ī�޶� ���� ���� - �ػ�: 640.0x480.0, FPS: 30.00003000003
+2025-06-10 22:17:58,458 - laser_monitor - INFO - ī�޶� �ʱ�ȭ ����
+2025-06-10 22:17:58,458 - laser_monitor - INFO - �� ���� ����: 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 22:17:58,458 - laser_monitor - INFO - ���� 32fd0c61-ee1f-470b-88cb-1763f5c26a4a ����͸� ����
+2025-06-10 22:17:58,509 - laser_monitor - INFO - ������ ���� ����: ���� 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 22:18:00,745 - laser_monitor - WARNING - 404 ����: http://127.0.0.1:5000/favicon.ico
+2025-06-10 22:18:01,317 - laser_monitor - INFO - ������ ���� ����: ���� 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 22:18:19,567 - laser_monitor - WARNING - �������� ���� �� �����ϴ�.
+2025-06-10 22:18:19,571 - laser_monitor - INFO - ī�޶� ���� ����
+2025-06-10 22:18:19,571 - laser_monitor - WARNING - ī�޶� �翬�� �õ�
+2025-06-10 22:18:19,572 - laser_monitor - INFO - ī�޶� �ʱ�ȭ �õ�: source=0
+2025-06-10 22:18:22,368 - laser_monitor - INFO - ī�޶� ���� ���� - �ػ�: 1280.0x720.0, FPS: 30.00003000003
+2025-06-10 22:18:22,369 - laser_monitor - WARNING - ��û�� �ػ�(640x480)�� ���� �ػ�(1280.0x720.0)�� �ٸ��ϴ�.
+2025-06-10 22:18:23,201 - laser_monitor - INFO - ī�޶� �ʱ�ȭ ����
+2025-06-10 22:24:15,423 - laser_monitor - WARNING - �̸��� ������ �������� �ʽ��ϴ�. �̸��� ����� ��Ȱ��ȭ�˴ϴ�.
+2025-06-10 22:24:18,885 - laser_monitor - INFO - YOLO �� �ε� ����: yolov8n.pt
+2025-06-10 22:24:18,886 - laser_monitor - INFO - ī�޶� ��ü �ʱ�ȭ �Ϸ� - �ҽ�: 0
+2025-06-10 22:24:18,887 - laser_monitor - INFO - ����͸� ���� �ʱ�ȭ �Ϸ�
+2025-06-10 22:24:18,891 - laser_monitor - INFO - ������ ����� ���ø����̼� ����
+2025-06-10 22:24:18,892 - laser_monitor - INFO - Debug ���: True
+2025-06-10 22:24:19,347 - laser_monitor - WARNING - �̸��� ������ �������� �ʽ��ϴ�. �̸��� ����� ��Ȱ��ȭ�˴ϴ�.
+2025-06-10 22:24:22,763 - laser_monitor - INFO - YOLO �� �ε� ����: yolov8n.pt
+2025-06-10 22:24:22,765 - laser_monitor - INFO - ī�޶� ��ü �ʱ�ȭ �Ϸ� - �ҽ�: 0
+2025-06-10 22:24:22,765 - laser_monitor - INFO - ����͸� ���� �ʱ�ȭ �Ϸ�
+2025-06-10 22:24:22,769 - laser_monitor - INFO - ������ ����� ���ø����̼� ����
+2025-06-10 22:24:22,769 - laser_monitor - INFO - Debug ���: True
+2025-06-10 22:24:48,020 - laser_monitor - INFO - ī�޶� �ʱ�ȭ �õ�: source=0
+2025-06-10 22:24:50,837 - laser_monitor - INFO - ī�޶� ���� ���� - �ػ�: 1280.0x720.0, FPS: 30.00003000003
+2025-06-10 22:24:50,837 - laser_monitor - WARNING - ��û�� �ػ�(640x480)�� ���� �ػ�(1280.0x720.0)�� �ٸ��ϴ�.
+2025-06-10 22:24:51,654 - laser_monitor - INFO - ī�޶� �ʱ�ȭ ����
+2025-06-10 22:24:51,655 - laser_monitor - INFO - �� ���� ����: 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 22:25:38,086 - laser_monitor - INFO - ������ ���� ����: ���� 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 22:25:39,801 - laser_monitor - WARNING - 404 ����: http://127.0.0.1:5000/disconnect
+2025-06-10 22:25:39,803 - laser_monitor - INFO - ���� 32fd0c61-ee1f-470b-88cb-1763f5c26a4a ����͸� ����
+2025-06-10 22:25:39,849 - laser_monitor - INFO - ������ ���� ����: ���� 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 22:25:43,083 - laser_monitor - INFO - ������ ���� ����: ���� 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 22:27:54,583 - laser_monitor - INFO - �� ���� ����: 1f274f7f-326d-48a4-b074-ec4edead338d
+2025-06-10 22:27:54,584 - laser_monitor - INFO - �� ���� ����: 1f274f7f-326d-48a4-b074-ec4edead338d
+2025-06-10 22:27:54,585 - laser_monitor - INFO - ���� 1f274f7f-326d-48a4-b074-ec4edead338d ����͸� ����
+2025-06-10 22:35:44,952 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 22:35:48,597 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 22:35:48,598 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 22:35:48,599 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 22:35:48,603 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 22:35:48,603 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 22:35:49,080 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 22:35:53,215 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 22:35:53,216 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 22:35:53,216 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 22:35:53,220 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 22:35:53,220 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 22:50:07,785 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 22:50:11,821 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 22:50:11,822 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 22:50:11,822 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 22:50:11,827 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 22:50:11,827 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 22:50:12,278 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 22:50:15,733 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 22:50:15,734 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 22:50:15,734 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 22:50:15,739 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 22:50:15,739 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 23:03:55,399 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 23:03:59,174 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 23:03:59,176 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 23:03:59,176 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 23:03:59,181 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 23:03:59,182 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 23:04:20,441 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 23:04:23,860 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 23:04:23,862 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 23:04:23,862 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 23:04:23,868 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 23:04:23,868 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 23:04:31,507 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 23:04:34,894 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 23:04:34,895 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 23:04:34,895 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 23:04:34,901 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 23:04:34,901 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 23:04:35,407 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 23:04:38,931 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 23:04:38,932 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 23:04:38,933 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 23:04:38,937 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 23:04:38,938 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 23:13:13,416 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 23:13:13,416 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 23:13:16,946 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 23:13:16,946 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 23:13:16,947 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 23:13:16,948 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 23:13:16,948 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 23:13:16,948 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 23:13:16,954 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 23:13:16,954 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 23:13:16,954 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 23:13:23,607 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 23:13:26,810 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 23:13:26,811 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 23:13:26,811 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 23:13:26,816 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 23:13:26,816 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 23:13:27,250 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 23:13:30,987 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 23:13:30,989 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 23:13:30,989 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 23:13:30,994 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 23:13:30,995 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 23:25:04,214 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 23:25:05,807 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 23:25:07,641 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 23:25:07,643 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 23:25:07,643 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 23:25:07,648 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 23:25:07,648 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 23:25:08,051 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 23:25:09,113 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 23:25:09,114 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 23:25:09,114 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 23:25:09,119 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 23:25:09,119 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 23:25:09,545 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 23:25:13,007 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 23:25:13,008 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 23:25:13,008 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 23:25:13,013 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 23:25:13,013 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 23:25:14,756 - laser_monitor - INFO - 새 세션 생성: 56e9d2dc-cf15-46dc-b5d7-9df28362a2f4
+2025-06-10 23:25:14,757 - laser_monitor - INFO - 카메라 초기화 시도: source=0
+2025-06-10 23:25:15,255 - laser_monitor - INFO - 4K 모드로 카메라 설정 중...
+2025-06-10 23:25:16,045 - laser_monitor - INFO - 카메라 설정 적용: 3840x2160@60fps
+2025-06-10 23:25:17,057 - laser_monitor - INFO - 카메라 설정 완료: 1280x720@60fps
+2025-06-10 23:25:17,057 - laser_monitor - WARNING - 요청한 해상도(3840x2160)와 실제 해상도(1280x720)가 다릅니다.
+2025-06-10 23:25:17,059 - laser_monitor - INFO - 카메라 초기화 성공
+2025-06-10 23:25:17,060 - laser_monitor - INFO - 4K 모드로 카메라 설정 중...
+2025-06-10 23:25:17,329 - laser_monitor - INFO - 카메라 설정 적용: 3840x2160@60fps
+2025-06-10 23:25:18,305 - laser_monitor - INFO - 카메라 설정 완료: 1280x720@60fps
+2025-06-10 23:25:18,306 - laser_monitor - WARNING - 요청한 해상도(3840x2160)와 실제 해상도(1280x720)가 다릅니다.
+2025-06-10 23:25:18,306 - laser_monitor - INFO - 새 세션 생성: 56e9d2dc-cf15-46dc-b5d7-9df28362a2f4
+2025-06-10 23:25:18,306 - laser_monitor - INFO - 세션 56e9d2dc-cf15-46dc-b5d7-9df28362a2f4 모니터링 시작
+2025-06-10 23:25:28,048 - laser_monitor - INFO - 새 세션 생성: 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 23:25:28,048 - laser_monitor - INFO - 세션 32fd0c61-ee1f-470b-88cb-1763f5c26a4a 모니터링 시작
+2025-06-10 23:25:28,094 - laser_monitor - INFO - 프레임 생성 시작: 세션 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 23:25:29,854 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:25:29,891 - laser_monitor - INFO - 프레임 생성 시작: 세션 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 23:25:34,840 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:25:39,835 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:25:44,836 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:25:48,340 - laser_monitor - WARNING - 404 오류: http://127.0.0.1:5000/change_source/0
+2025-06-10 23:25:48,846 - laser_monitor - WARNING - 404 오류: http://127.0.0.1:5000/change_source/1
+2025-06-10 23:25:49,499 - laser_monitor - WARNING - 404 오류: http://127.0.0.1:5000/change_source/1
+2025-06-10 23:25:49,841 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:25:49,871 - laser_monitor - WARNING - 404 오류: http://127.0.0.1:5000/change_source/0
+2025-06-10 23:25:54,841 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:25:59,839 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:26:04,838 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:26:09,836 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:26:14,842 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:26:19,845 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:26:24,835 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:26:29,839 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:26:34,847 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:26:39,840 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:26:44,835 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:26:49,834 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:26:54,838 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:26:59,842 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:27:04,842 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:27:09,848 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:27:14,852 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:27:19,835 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:27:24,849 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:27:29,844 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:27:34,837 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:27:39,848 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:27:44,848 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:27:50,189 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+    camera_info = camera.get_camera_info() if camera else None
+                                              ^^^^^^
+NameError: name 'camera' is not defined
+2025-06-10 23:27:55,751 - laser_monitor - ERROR - 현재 화질 설정 조회 중 오류: name 'camera' is not defined
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\app.py", line 349, in get_current_quality
+NameError: name 'camera' is not defined
+2025-06-10 23:28:33,124 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 23:28:37,662 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 23:28:37,664 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 23:28:37,665 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 23:28:37,673 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 23:28:37,673 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 23:28:38,531 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 23:28:42,184 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 23:28:42,185 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 23:28:42,185 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 23:28:42,216 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 23:28:42,235 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 23:43:40,567 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 23:43:43,740 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 23:43:43,742 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 23:43:43,742 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 23:43:43,747 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 23:43:43,747 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 23:43:44,141 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 23:43:47,249 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 23:43:47,250 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 23:43:47,250 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 23:43:47,255 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 23:43:47,255 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 23:44:04,609 - laser_monitor - INFO - 카메라 초기화 시도: source=0
+2025-06-10 23:44:04,939 - laser_monitor - WARNING - 404 오류: http://127.0.0.1:5000/disconnect
+2025-06-10 23:44:05,114 - laser_monitor - WARNING - 404 오류: http://127.0.0.1:5000/disconnect
+2025-06-10 23:44:05,272 - laser_monitor - INFO - 4K 모드로 카메라 설정 중...
+2025-06-10 23:44:05,297 - laser_monitor - INFO - 프레임 생성 시작: 세션 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 23:44:06,063 - laser_monitor - INFO - 카메라 설정 적용: 3840x2160@60fps
+2025-06-10 23:44:07,006 - laser_monitor - INFO - 카메라 설정 완료: 1280x720@60fps
+2025-06-10 23:44:07,006 - laser_monitor - WARNING - 요청한 해상도(3840x2160)와 실제 해상도(1280x720)가 다릅니다.
+2025-06-10 23:44:07,024 - laser_monitor - INFO - 카메라 초기화 성공
+2025-06-10 23:44:07,025 - laser_monitor - INFO - 4K 모드로 카메라 설정 중...
+2025-06-10 23:44:07,297 - laser_monitor - INFO - 카메라 설정 적용: 3840x2160@60fps
+2025-06-10 23:44:07,826 - laser_monitor - INFO - 세션 32fd0c61-ee1f-470b-88cb-1763f5c26a4a 모니터링 시작
+2025-06-10 23:44:07,835 - laser_monitor - WARNING - 404 오류: http://127.0.0.1:5000/disconnect
+2025-06-10 23:44:07,872 - laser_monitor - INFO - 프레임 생성 시작: 세션 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 23:44:08,220 - laser_monitor - INFO - 카메라 설정 완료: 1280x720@60fps
+2025-06-10 23:44:08,221 - laser_monitor - WARNING - 요청한 해상도(3840x2160)와 실제 해상도(1280x720)가 다릅니다.
+2025-06-10 23:44:08,221 - laser_monitor - INFO - 새 세션 생성: 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 23:44:08,221 - laser_monitor - INFO - 세션 32fd0c61-ee1f-470b-88cb-1763f5c26a4a 모니터링 시작
+2025-06-10 23:44:08,256 - laser_monitor - ERROR - T셔츠 중심점 감지 중 오류: 'Conv' object has no attribute 'bn'
+Traceback (most recent call last):
+  File "C:\Users\ybg48\git\laser-monitor\laser_monitor\camera\detector.py", line 132, in detect_tshirt_center
+    results = detector._model(frame, conf=Config.DETECTION_CONFIDENCE, verbose=False)
+  File "C:\Users\ybg48\AppData\Local\Programs\Python\Python313\Lib\site-packages\ultralytics\engine\model.py", line 180, in __call__
+    return self.predict(source, stream, **kwargs)
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ybg48\AppData\Local\Programs\Python\Python313\Lib\site-packages\ultralytics\engine\model.py", line 551, in predict
+    self.predictor.setup_model(model=self.model, verbose=is_cli)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\ybg48\AppData\Local\Programs\Python\Python313\Lib\site-packages\ultralytics\engine\predictor.py", line 310, in setup_model
+    self.model = AutoBackend(
+                 ~~~~~~~~~~~^
+        weights=model or self.args.model,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<6 lines>...
+        verbose=verbose,
+        ^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\ybg48\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "C:\Users\ybg48\AppData\Local\Programs\Python\Python313\Lib\site-packages\ultralytics\nn\autobackend.py", line 152, in __init__
+    model = model.fuse(verbose=verbose)
+  File "C:\Users\ybg48\AppData\Local\Programs\Python\Python313\Lib\site-packages\ultralytics\nn\tasks.py", line 202, in fuse
+    delattr(m, "bn")  # remove batchnorm
+    ~~~~~~~^^^^^^^^^
+  File "C:\Users\ybg48\AppData\Local\Programs\Python\Python313\Lib\site-packages\torch\nn\modules\module.py", line 2040, in __delattr__
+    super().__delattr__(name)
+    ~~~~~~~~~~~~~~~~~~~^^^^^^
+AttributeError: 'Conv' object has no attribute 'bn'
+2025-06-10 23:44:11,186 - laser_monitor - INFO - 프레임 생성 시작: 세션 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 23:44:15,798 - laser_monitor - INFO - HSV 값 업데이트: {'h_lower': '73'}
+2025-06-10 23:44:16,420 - laser_monitor - INFO - HSV 값 업데이트: {'h_lower': '128'}
+2025-06-10 23:44:16,477 - laser_monitor - INFO - HSV 값 업데이트: {'h_lower': '130'}
+2025-06-10 23:44:17,061 - laser_monitor - INFO - HSV 값 업데이트: {'h_lower': '20'}
+2025-06-10 23:44:17,086 - laser_monitor - INFO - HSV 값 업데이트: {'h_lower': '18'}
+2025-06-10 23:44:17,106 - laser_monitor - INFO - HSV 값 업데이트: {'h_lower': '15'}
+2025-06-10 23:44:17,119 - laser_monitor - INFO - HSV 값 업데이트: {'h_lower': '9'}
+2025-06-10 23:44:17,132 - laser_monitor - INFO - HSV 값 업데이트: {'h_lower': '2'}
+2025-06-10 23:44:17,139 - laser_monitor - INFO - HSV 값 업데이트: {'h_lower': '0'}
+2025-06-10 23:49:17,217 - laser_monitor - WARNING - 404 오류: http://127.0.0.1:5000/capture_current
+2025-06-10 23:49:19,320 - laser_monitor - WARNING - 404 오류: http://127.0.0.1:5000/capture_current
+2025-06-10 23:49:20,041 - laser_monitor - WARNING - 404 오류: http://127.0.0.1:5000/capture_current
+2025-06-10 23:49:20,221 - laser_monitor - WARNING - 404 오류: http://127.0.0.1:5000/capture_current
+2025-06-10 23:50:27,287 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-10 23:50:30,443 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-10 23:50:30,444 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-10 23:50:30,445 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-10 23:50:30,450 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-10 23:50:30,450 - laser_monitor - INFO - Debug 모드: True
+2025-06-10 23:53:41,128 - laser_monitor - INFO - 카메라 초기화 시도: source=0
+2025-06-10 23:53:41,704 - laser_monitor - INFO - 4K 모드로 카메라 설정 중...
+2025-06-10 23:53:42,486 - laser_monitor - INFO - 카메라 설정 적용: 3840x2160@60fps
+2025-06-10 23:53:43,262 - laser_monitor - INFO - 카메라 설정 완료: 1280x720@60fps
+2025-06-10 23:53:43,262 - laser_monitor - WARNING - 요청한 해상도(3840x2160)와 실제 해상도(1280x720)가 다릅니다.
+2025-06-10 23:53:43,279 - laser_monitor - INFO - 카메라 초기화 성공
+2025-06-10 23:53:43,279 - laser_monitor - INFO - 4K 모드로 카메라 설정 중...
+2025-06-10 23:53:43,551 - laser_monitor - INFO - 카메라 설정 적용: 3840x2160@60fps
+2025-06-10 23:53:44,561 - laser_monitor - INFO - 카메라 설정 완료: 1280x720@60fps
+2025-06-10 23:53:44,562 - laser_monitor - WARNING - 요청한 해상도(3840x2160)와 실제 해상도(1280x720)가 다릅니다.
+2025-06-10 23:53:44,562 - laser_monitor - INFO - 새 세션 생성: 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 23:55:33,025 - laser_monitor - INFO - 캡처 성공: manual_capture_20250610_235533.jpg (수동)
+2025-06-10 23:55:33,025 - laser_monitor - INFO - 수동 캡처 완료: 2025-06-10 23:55:33
+2025-06-10 23:56:23,588 - laser_monitor - INFO - 세션 32fd0c61-ee1f-470b-88cb-1763f5c26a4a 모니터링 시작
+2025-06-10 23:56:23,592 - laser_monitor - WARNING - 404 오류: http://127.0.0.1:5000/disconnect
+2025-06-10 23:56:23,634 - laser_monitor - INFO - 프레임 생성 시작: 세션 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 23:56:29,348 - laser_monitor - INFO - 프레임 생성 시작: 세션 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 23:56:38,485 - laser_monitor - INFO - 카메라 설정 적용: 1920x1080@60fps
+2025-06-10 23:56:38,485 - laser_monitor - INFO - 카메라 설정 완료: 0x0@0fps
+2025-06-10 23:56:38,485 - laser_monitor - WARNING - 요청한 해상도(1920x1080)와 실제 해상도(0x0)가 다릅니다.
+2025-06-10 23:56:38,485 - laser_monitor - INFO - 비디오 설정 업데이트: {'width': 1920, 'height': 1080, 'fps': 60, 'quality': 95}
+2025-06-10 23:56:38,485 - laser_monitor - INFO - 화질 프리셋 변경 성공: high (1920x1080 Full HD, 60fps, 고화질)
+2025-06-10 23:56:39,334 - laser_monitor - WARNING - 프레임을 읽을 수 없습니다.
+2025-06-10 23:56:39,334 - laser_monitor - INFO - 카메라 연결 해제
+2025-06-10 23:56:39,335 - laser_monitor - WARNING - 카메라 재연결 시도
+2025-06-10 23:56:39,335 - laser_monitor - INFO - 카메라 초기화 시도: source=0
+2025-06-10 23:56:39,432 - laser_monitor - WARNING - 카메라 재연결 시도
+2025-06-10 23:56:39,432 - laser_monitor - INFO - 카메라 초기화 시도: source=0
+2025-06-10 23:56:39,509 - laser_monitor - WARNING - 404 오류: http://127.0.0.1:5000/disconnect
+2025-06-10 23:56:39,510 - laser_monitor - INFO - 세션 32fd0c61-ee1f-470b-88cb-1763f5c26a4a 모니터링 시작
+2025-06-10 23:56:39,538 - laser_monitor - INFO - 프레임 생성 시작: 세션 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-10 23:56:39,538 - laser_monitor - WARNING - 카메라 재연결 시도
+2025-06-10 23:56:39,538 - laser_monitor - INFO - 카메라 초기화 시도: source=0
+2025-06-10 23:56:39,809 - laser_monitor - WARNING - 카메라 소스 0 연결 실패, 다른 소스 시도
+2025-06-10 23:56:39,809 - laser_monitor - INFO - 카메라 소스 1 시도
+2025-06-10 23:56:39,901 - laser_monitor - WARNING - 카메라 소스 0 연결 실패, 다른 소스 시도
+2025-06-10 23:56:39,901 - laser_monitor - INFO - 카메라 소스 1 시도
+2025-06-11 00:01:37,708 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-11 00:01:40,955 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-11 00:01:40,956 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-11 00:01:40,957 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-11 00:01:40,962 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-11 00:01:40,962 - laser_monitor - INFO - Debug 모드: True
+2025-06-11 00:01:41,348 - laser_monitor - WARNING - 이메일 설정이 완전하지 않습니다. 이메일 기능이 비활성화됩니다.
+2025-06-11 00:01:44,455 - laser_monitor - INFO - YOLO 모델 로드 성공: yolov8n.pt
+2025-06-11 00:01:44,456 - laser_monitor - INFO - 카메라 객체 초기화 완료 - 소스: 0
+2025-06-11 00:01:44,456 - laser_monitor - INFO - 모니터링 상태 초기화 완료
+2025-06-11 00:01:44,461 - laser_monitor - INFO - 레이저 모니터 애플리케이션 시작
+2025-06-11 00:01:44,461 - laser_monitor - INFO - Debug 모드: True
+2025-06-11 00:01:44,489 - laser_monitor - INFO - 카메라 초기화 시도: source=0
+2025-06-11 00:01:44,945 - laser_monitor - INFO - 4K 모드로 카메라 설정 중...
+2025-06-11 00:01:45,742 - laser_monitor - INFO - 카메라 설정 적용: 3840x2160@60fps
+2025-06-11 00:01:46,545 - laser_monitor - INFO - 카메라 설정 완료: 1280x720@60fps
+2025-06-11 00:01:46,546 - laser_monitor - WARNING - 요청한 해상도(3840x2160)와 실제 해상도(1280x720)가 다릅니다.
+2025-06-11 00:01:46,565 - laser_monitor - INFO - 카메라 초기화 성공
+2025-06-11 00:01:46,565 - laser_monitor - INFO - 4K 모드로 카메라 설정 중...
+2025-06-11 00:01:46,839 - laser_monitor - INFO - 카메라 설정 적용: 3840x2160@60fps
+2025-06-11 00:01:47,778 - laser_monitor - INFO - 카메라 설정 완료: 1280x720@60fps
+2025-06-11 00:01:47,778 - laser_monitor - WARNING - 요청한 해상도(3840x2160)와 실제 해상도(1280x720)가 다릅니다.
+2025-06-11 00:01:47,778 - laser_monitor - INFO - 새 세션 생성: 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-11 00:01:51,491 - laser_monitor - WARNING - 404 오류: http://127.0.0.1:5000/disconnect
+2025-06-11 00:01:51,492 - laser_monitor - INFO - 세션 32fd0c61-ee1f-470b-88cb-1763f5c26a4a 모니터링 시작
+2025-06-11 00:01:51,529 - laser_monitor - INFO - 프레임 생성 시작: 세션 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-11 00:01:53,783 - laser_monitor - INFO - 프레임 생성 시작: 세션 32fd0c61-ee1f-470b-88cb-1763f5c26a4a
+2025-06-11 00:01:57,140 - laser_monitor - INFO - 캡처 성공: manual_capture_20250611_000157.jpg (수동)
+2025-06-11 00:01:57,141 - laser_monitor - INFO - 수동 캡처 완료: 2025-06-11 00:01:57
+2025-06-11 00:01:59,972 - laser_monitor - INFO - 캡처 성공: manual_capture_20250611_000159.jpg (수동)
+2025-06-11 00:01:59,973 - laser_monitor - INFO - 수동 캡처 완료: 2025-06-11 00:01:59
+2025-06-11 00:02:06,013 - laser_monitor - INFO - 캡처 성공: manual_capture_20250611_000206.jpg (수동)
+2025-06-11 00:02:06,015 - laser_monitor - INFO - 수동 캡처 완료: 2025-06-11 00:02:06

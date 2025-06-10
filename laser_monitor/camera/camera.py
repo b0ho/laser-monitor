@@ -70,6 +70,11 @@ class SharedCamera:
                     return False
 
                 logger.info("카메라 초기화 성공")
+
+                # 카메라 설정 적용
+                if not self._apply_camera_settings():
+                    logger.warning("카메라 설정 적용 실패, 기본 설정으로 사용")
+
                 return True
 
             return self.cap.isOpened()
@@ -79,31 +84,79 @@ class SharedCamera:
             return False
 
     def _apply_camera_settings(self):
-        """카메라 설정 적용"""
+        """카메라 설정 적용 (4K 60Hz 지원 포함)"""
         try:
             if not self.cap:
                 return False
 
-            # 해상도 설정
-            self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, self.video_settings['width'])
-            self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, self.video_settings['height'])
-            self.cap.set(cv2.CAP_PROP_FPS, self.video_settings['fps'])
+            # 현재 화질 프리셋 가져오기
+            current_preset = Config.get_quality_preset()
+            target_width = current_preset['width']
+            target_height = current_preset['height']
+            target_fps = current_preset['fps']
 
-            # 버퍼 크기 설정 (최신 프레임 보장)
-            self.cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)
+            # 4K 모드인 경우 특별 설정
+            is_4k_mode = target_width >= 3840 and target_height >= 2160
 
-            # 실제 적용된 설정값 확인
-            actual_width = self.cap.get(cv2.CAP_PROP_FRAME_WIDTH)
-            actual_height = self.cap.get(cv2.CAP_PROP_FRAME_HEIGHT)
-            actual_fps = self.cap.get(cv2.CAP_PROP_FPS)
+            if is_4k_mode:
+                # 4K 모드 최적화 설정
+                logger.info("4K 모드로 카메라 설정 중...")
 
-            logger.info(f"카메라 설정 적용 - 해상도: {actual_width}x{actual_height}, FPS: {actual_fps}")
+                # 코덱을 H.264로 설정 (4K 처리에 효율적)
+                self.cap.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc(*'H264'))
 
-            # 설정값과 실제값이 다른 경우 경고
-            if (actual_width != self.video_settings['width'] or
-                actual_height != self.video_settings['height']):
-                logger.warning(f"요청한 해상도({self.video_settings['width']}x{self.video_settings['height']})와 "
-                             f"실제 해상도({actual_width}x{actual_height})가 다릅니다.")
+                # 버퍼 크기를 더 크게 설정 (4K 데이터 처리용)
+                self.cap.set(cv2.CAP_PROP_BUFFERSIZE, 2)
+            else:
+                # 일반 모드는 MJPEG 사용
+                self.cap.set(cv2.CAP_PROP_FOURCC, cv2.VideoWriter_fourcc(*'MJPG'))
+                self.cap.set(cv2.CAP_PROP_BUFFERSIZE, 1)
+
+            # 해상도 및 FPS 설정
+            logger.info(f"카메라 설정 적용: {target_width}x{target_height}@{target_fps}fps")
+            self.cap.set(cv2.CAP_PROP_FRAME_WIDTH, target_width)
+            self.cap.set(cv2.CAP_PROP_FRAME_HEIGHT, target_height)
+            self.cap.set(cv2.CAP_PROP_FPS, target_fps)
+
+            # 고급 화질 설정 적용
+            if 'brightness' in current_preset:
+                brightness = current_preset['brightness']
+                self.cap.set(cv2.CAP_PROP_BRIGHTNESS, brightness)
+                logger.debug(f"밝기 설정: {brightness}")
+
+            if 'contrast' in current_preset:
+                contrast = current_preset['contrast']
+                self.cap.set(cv2.CAP_PROP_CONTRAST, contrast)
+                logger.debug(f"대비 설정: {contrast}")
+
+            if 'saturation' in current_preset:
+                saturation = current_preset['saturation']
+                self.cap.set(cv2.CAP_PROP_SATURATION, saturation)
+                logger.debug(f"채도 설정: {saturation}")
+
+            # 자동초점 설정
+            if current_preset.get('autofocus', True):
+                self.cap.set(cv2.CAP_PROP_AUTOFOCUS, 1)
+                logger.debug("자동초점 활성화")
+            else:
+                self.cap.set(cv2.CAP_PROP_AUTOFOCUS, 0)
+
+            # 자동 노출 설정 (4K에서는 수동 노출이 더 안정적)
+            if is_4k_mode:
+                self.cap.set(cv2.CAP_PROP_AUTO_EXPOSURE, 0.25)  # 수동 노출
+                logger.debug("4K 모드: 수동 노출 설정")
+            else:
+                self.cap.set(cv2.CAP_PROP_AUTO_EXPOSURE, 0.75)  # 자동 노출
+
+            # 설정 확인 및 로깅
+            actual_width = int(self.cap.get(cv2.CAP_PROP_FRAME_WIDTH))
+            actual_height = int(self.cap.get(cv2.CAP_PROP_FRAME_HEIGHT))
+            actual_fps = int(self.cap.get(cv2.CAP_PROP_FPS))
+
+            logger.info(f"카메라 설정 완료: {actual_width}x{actual_height}@{actual_fps}fps")
+
+            if actual_width != target_width or actual_height != target_height:
+                logger.warning(f"요청한 해상도({target_width}x{target_height})와 실제 해상도({actual_width}x{actual_height})가 다릅니다.")
 
             return True
 
